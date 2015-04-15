@@ -20,11 +20,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),)
+LINKS = (('I2P', 'https://geti2p.net/'),)
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/majestrate'), 
+           ('twitter', 'https://twitter.com/ampernand'))
+
 
 DEFAULT_PAGINATION = 10
 
