@@ -1,6 +1,6 @@
 Date: 2015-08-25
 Tags: blog, nntpchan, livechan
-Category: blog, nntpchan, livechan
+Category: nntpchan
 Title: NNTPChan Part 2 -- Overchan and Livechan
 
 Yay the continuation of the nntpchan blogs is here, part 2 specifically, probably more to come when things go down. In my last blog I talked about the history of overchan, specifically why it came to be but did not really touch on how it came to be.
