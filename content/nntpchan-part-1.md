@@ -1,6 +1,6 @@
 Date: 2015-07-08
 Tags: blog, nntpchan, livechan
-Category: blog, nntpchan, livechan
+Category: nntpchan
 Title: NNTPChan Part 1 -- Torchan and Overchan
 
 After some downtime, I finally got around to restoring my blog since there's something to talk about.
