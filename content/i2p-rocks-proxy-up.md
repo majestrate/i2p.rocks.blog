@@ -3,7 +3,7 @@ Tags: i2p, inproxy
 Category: blog
 Title: i2p.rocks is back up
 
-i2p.rocks in proxy is now back and powered by [i2pd](333.i2p.rocks), a pure C++ i2p router implementation.
+i2p.rocks in proxy is now back and powered by [i2pd](http://333.i2p.rocks), a pure C++ i2p router implementation.
 
 In time I may also provide an i2pbote gateway as well.
 
