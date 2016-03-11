@@ -12,10 +12,10 @@ FTP_HOST=ocean.hype
 FTP_USER=jeff
 FTP_TARGET_DIR=/blog
 
-SSH_HOST=localhost
+SSH_HOST=i2p.rocks
 SSH_PORT=22
 SSH_USER=root
-SSH_TARGET_DIR=/var/www
+SSH_TARGET_DIR=/var/www/i2p.rocks/
 
 S3_BUCKET=my_s3_bucket
 
