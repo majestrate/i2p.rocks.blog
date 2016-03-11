@@ -78,8 +78,8 @@ jquery_jsfiles = [
 
 # theme related script files
 theme_jsfiles = [
-    "simplecss.min.js",
-    "zjs.min.js"
+    "zjs.min.js",
+    "simplecss.min.js"
 ]
 
 
