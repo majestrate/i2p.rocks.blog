@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="{{DEFAULT_LANG}}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="{{AUTHOR}}{% for keyword in KEYWORDS %}, {{keyword}}{%endfor%}">
+    <meta name="description" content="Personal Blog">
+    <meta name="author" content="{{AUTHOR}}">
+    <!-- begin stylesheets -->
+    {% for css in CSS_FILES %}
+    <link rel="stylesheet" href="{{SITE_URL}}/static/css/{{css}}" />
+    {% endfor %}
+    <!-- end stylesheets -->
+    <!-- begin scripts -->
+    {% for js in JS_FILES %}
+    <script type="text/javascript" src="{{SITE_URL}}/static/js/{{js}}">
+    </script>
+    {% endfor %}
+    <!-- end scripts -->
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+  <body>
+    <!-- block content -->
+    {% block content %}
+    {% endblock %}
+    <!-- endblock content -->
+  </body>
+</html>
