@@ -16,5 +16,5 @@
 
 ### deploying ###
 
-    make publish
+    make publish ssh_upload
 
