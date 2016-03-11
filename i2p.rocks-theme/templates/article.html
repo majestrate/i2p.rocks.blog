@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="header dm-10 offset-2">
+  <header class="dm-8">
+    Posted on <time pubdate datetime="{{ article.date|strftime('%Y-%m-%d') }}">{{article.date | strftime('%B %d %Y') }}</time> by <author>{{article.author }}</author>
+    <h1> {{article.title }} </h1>
+  </header>
+</section>
+<section class="article dm-10 offset-2">
+  <article class="dm-8">
+    <div class="dm-10">
+      {{ article.content }}
+    </div>
+  </article>
+</section>
+{% endblock %}

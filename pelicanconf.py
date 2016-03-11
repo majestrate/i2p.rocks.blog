@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jeff'
 SITENAME = u'i2p.rocks -- blog about i2p and other stuff'
-SITEURL = ''
+SITEURL = '/blog'
 
 PATH = 'content'
 
@@ -26,7 +26,7 @@ SOCIAL = (('github', 'https://github.com/majestrate'),
            ('twitter', 'https://twitter.com/ampernand'))
 
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True

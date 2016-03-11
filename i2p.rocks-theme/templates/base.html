@@ -1,5 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="{{DEFAULT_LANG}}">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="keywords" content="{{AUTHOR}}{% for keyword in KEYWORDS %}, {{keyword}}{%endfor%}">
@@ -17,11 +16,28 @@
     {% endfor %}
     <!-- end scripts -->
     <title>{% block title %}{% endblock %}</title>
+    <!-- end custom head -->
   </head>
-  <body>
-    <!-- block content -->
+  <body class="home">
+    {% block header %}
+      <div id="banner" class="menu">
+        <ul>
+          <li id="logo" class="menu-item">
+            <a href="{{SITEURL}}/">{{SITENAME}}</a>
+          </li>
+          {% block header_extra_links %}
+          {% endblock %}
+        </ul>
+      </div>
+    {% endblock %}
     {% block content %}
     {% endblock %}
-    <!-- endblock content -->
+    {% block footer %}
+      <footer id="contentinfo" class="dm-4">
+        <address id="about">
+          powered by <a href="https://getpelican.com">pelican</a>
+        </address>
+      </footer>
+    {% endblock %}
   </body>
 </html>
