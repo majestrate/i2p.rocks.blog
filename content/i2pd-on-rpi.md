@@ -1,9 +1,9 @@
 Date: 2016-06-26
 Tags: i2p, i2pd, tutorial
 Category: blog
-Title: Cross-Compile static I2PD for Rasperry Pi
+Title: Cross-Compile static I2PD for Raspberry Pi
 
-I have recently successfully built [i2pd](http://i2pd.website) for the rasperry pi using a cross compiler on ubuntu 16.04 lts for amd64. So far i2pd has an uptime of over a week with no crashes or memory leaks running a small [irc server](irc://6mk5za2izxm5ubu7bhzw3io7x5h6yjnlc7iccmn2ilbwptceaiwq.b32.i2p/). There are still a few things i2pd could do better, specifically more documentation but I digress.
+I have recently successfully built [i2pd](http://i2pd.website) for the raspberry pi using a cross compiler on Ubuntu 16.04 LTS for amd64. So far i2pd has an uptime of over a week with no crashes or memory leaks running a small [irc server](irc://6mk5za2izxm5ubu7bhzw3io7x5h6yjnlc7iccmn2ilbwptceaiwq.b32.i2p/). There are still a few things i2pd could do better, specifically more documentation but I digress.
 
 ## Building 
 
@@ -11,7 +11,7 @@ First off if you don't have `git` install it along with the basic compiler stuff
 
 `# apt install git build-essential`
 
-To build a static i2pd for rasperry pi you'll need to build an environment with all the i2pd dependencies. We'll use ubuntu's gcc arm cross compiler for this.
+To build a static i2pd for raspberry pi you'll need to build an environment with all the i2pd dependencies. We'll use ubuntu's gcc arm cross compiler for this.
 
 `# apt install g++-arm-linux-gnueabihf gcc-arm-linux-gnueabihf`
 
@@ -28,7 +28,7 @@ Now on to building all the dependencies for i2pd (from source of course)
 
 We'll start with the simplest dependency, `zlib`
 
-Obtain and unacpk zlib...
+Obtain and unpack zlib...
 
 `$ cd $RPI/src
 $ wget http://zlib.net/zlib-1.2.8.tar.gz
@@ -96,9 +96,9 @@ $ cd i2pd`
 
 `$ make CXX=arm-linux-gnueabihf-g++ LIBDIR="$RPI/lib" USE_AESNI=no USE_STATIC=yes INCFLAGS="-I$RPI/include"`
 
-If all goes right you'll get a statically compiled i2pd that runs on the rasperry pi.
+If all goes right you'll get a statically compiled i2pd that runs on the raspberry pi.
 
-Optionalally you can strip the debugging symbols from the static binary with `arm-linux-gnueabihf-strip i2pd`
+Optionally you can strip the debugging symbols from the static binary with `arm-linux-gnueabihf-strip i2pd`
 
 Copy to your rpi, run it as a non root user and enjoy.
 
