@@ -1,7 +1,7 @@
 Date: 2016-06-26
 Tags: i2p, i2pd, tutorial
 Category: blog
-Title: Cross-Compile static I2PD for Rasperry Pi
+Title: Cross-Compile static I2PD for Raspberry Pi
 
 I have recently successfully built [i2pd](http://i2pd.website) for the rasperry pi using a cross compiler on ubuntu 16.04 lts for amd64. So far i2pd has an uptime of over a week with no crashes or memory leaks running a small [irc server](irc://6mk5za2izxm5ubu7bhzw3io7x5h6yjnlc7iccmn2ilbwptceaiwq.b32.i2p/). There are still a few things i2pd could do better, specifically more documentation but I digress.
 
