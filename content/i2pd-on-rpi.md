@@ -102,4 +102,4 @@ Optionalally you can strip the debugging symbols from the static binary with `ar
 
 Copy to your rpi, run it as a non root user and enjoy.
 
-If any steps don't work please feel free to contact me.
+If any steps don't work please feel free to contact me on [twitter](https://twitter.com/ampernand) or via [email](ampernand@gmail.com)
