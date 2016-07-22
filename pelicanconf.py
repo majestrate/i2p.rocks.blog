@@ -24,6 +24,8 @@ LINKS = (('I2P', 'https://geti2p.net/'),)
 
 SOCIAL = (('github', 'https://github.com/majestrate'), 
            ('twitter', 'https://twitter.com/ampernand'))
+# markdown extensions
+MD_EXTENSIONS = ['codehilite(linenums=False,guess_lang=True,use_pygments=True)', 'extra']
 
 
 DEFAULT_PAGINATION = 3
@@ -56,8 +58,9 @@ CSS_FILES = []
 
 # css theme in use
 css_theme = 'simplecss'
-css_theme_stylesheets = []
-
+# extra css files
+css_theme_stylesheets = ['github.css']
+# local style override
 css_local_override = 'local.css'
 
 

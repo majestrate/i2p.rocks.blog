@@ -41,12 +41,16 @@ summary {
     padding: 1em;
 }
 
-.highlight {
-    background-color: #2f2b2b;
+.codehilite {
     background-image: url('/blog/theme/images/code_grain.png');
     margin: 1em;
     padding: 1em;
     border-radius: 5px;
-    color: #ff741d;
     box-shadow: 0px 0px 5px black;
+    width: 100%;
+    overflow: scroll;
+}
+
+pre {
+    white-space: pre;
 }
