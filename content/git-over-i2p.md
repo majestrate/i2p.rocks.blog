@@ -137,7 +137,7 @@ At the moment the easiest way i2p tunnel addresses can be found in the i2pd [web
 
 (the following should be run as your regular user)
 
-To push an initial git repo you'll need to ammend `~/.ssh/config` to use `~/i2p-socks-proxy` to connect to
+To push an initial git repo you'll need to ammend `~/.ssh/config` to use `~/i2p-socks-proxy` to connect.
 
 Put the following in `~/.ssh/config` ...
 
