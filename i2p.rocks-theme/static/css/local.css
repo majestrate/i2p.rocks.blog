@@ -12,37 +12,40 @@
 
 
 #logo {
-    background-image: url("/blog/theme/images/logo.png");
+    background-image: url("../../theme/images/logo.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 50px;
 }
 
-#articles , .header {   
-    margin-top: 10%;
+#articles, .header {   
+    margin-top: 5em;
 }
 
-.article {
-    margin-top: 1em;
+.home, .menu  {
+    background-image: url('../../theme/images/grain.png');
 }
 
-.home , article , .menu , header {
-    background-image: url('/blog/theme/images/grain.png');
-}
-
-article, header {
+article {
+    margin-bottom: 3em;
     padding: 1em;
-    border-radius: 5px;
-    margin: 1em;
-    box-shadow: 0px 0px 5px black;
 }
 
-summary {
-    padding: 1em;
+article header {
+    margin-bottom: 2em;
+}
+
+article header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+article header a:hover {
+    text-decoration: underline;
 }
 
 .codehilite {
-    background-image: url('/blog/theme/images/code_grain.png');
+    background-image: url('../../theme/images/code_grain.png');
     margin: 1em;
     padding: 1em;
     border-radius: 5px;
