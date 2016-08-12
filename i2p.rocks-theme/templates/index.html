@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% block title %} i2p.rocks blog index {% endblock %}
 {% block header_extra_links %}
+    <li class="menu-item">
+      <a href="archives.html">archive</a>
+    </li>
     {% if articles_previous_page %}
     <li class="menu-item">
       <a href="{{articles_previous_page.url}}">newer</a>
@@ -11,25 +14,35 @@
       <a href="{{articles_next_page.url}}">older</a>
     </li>
     {% endif %}
-  </ul>
-</div>
 {% endblock %}
 {% block content %}
-<section id="articles" class="dm-10">
+<section id="articles" class="dm-10 offset-1">
   {% for article in articles_page.object_list %}
-  <article class="offset-2">
-    <ul class="menu round">
-      <li class="menu-title">
-        <a href="{{article.url}}">{{article.title}}</a>
-      </li>
-      <li class="menu-item">
-        <label>Posted {{article.date | strftime('%B %d %Y') }}</label>
-      </li>
-    </ul>
+  <article>
+      <header>
+          <h1><a href="{{article.url}}">{{article.title}}</a></h1>
+          <small>
+          Posted on <time pubdate datetime="{{ article.date|strftime('%Y-%m-%d') }}">{{article.date | strftime('%B %d %Y') }}</time>
+          by <author>{{article.author }}</author>
+          </small>
+      </header>
     <summary>
       {{article.summary}}
+      {% if article.summary != article.content %}
+        <a href="{{article.url}}" class="size-small">Read more...</a>
+      {% endif %}
     </summary>
   </article>
   {% endfor %}
+
+    <ul class="pagination">
+        {% if articles_previous_page %}
+          <li><a href="{{articles_previous_page.url}}">«</a></li>
+        {% endif %}
+        <li><a href="#top">To top</a></li>
+        {% if articles_next_page %}
+          <li><a href="{{articles_next_page.url}}">»</a></li>
+        {% endif %}
+    </ul>
 </section>
 {% endblock %}

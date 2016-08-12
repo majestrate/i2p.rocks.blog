@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jeff'
 SITENAME = u'i2p.rocks -- blog about i2p and other stuff'
-SITEURL = '/blog'
+SITEURL = 'https://i2p.rocks/blog'
 
 PATH = 'content'
 
@@ -13,7 +13,10 @@ TIMEZONE = 'UTC'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_DOMAIN = SITEURL
+FEED_MAX_ITEMS = 10
+FEED_ALL_RSS = 'rss.xml'
+FEED_ALL_ATOM = 'atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -22,13 +25,15 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('I2P', 'https://geti2p.net/'),)
 
-SOCIAL = (('github', 'https://github.com/majestrate'), 
-           ('twitter', 'https://twitter.com/ampernand'))
+SOCIAL = (('GitHub', 'https://github.com/majestrate'), 
+           ('Twitter', 'https://twitter.com/ampernand'),
+           ('RSS', FEED_DOMAIN + '/' + FEED_ALL_RSS))
 # markdown extensions
 MD_EXTENSIONS = ['codehilite(linenums=False,guess_lang=True,use_pygments=True)', 'extra']
 
 
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 10
+SUMMARY_MAX_LENGTH = 150
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
