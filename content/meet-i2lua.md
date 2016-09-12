@@ -2,6 +2,7 @@ Date: 2016-09-12
 Tags: i2p, i2pd, i2lua
 Category: blog
 Title: Meet i2lua -- I2P router with "smart" configuration
+Authors: Invisible Villain
 
 With [i2lua](https://github.com/majestrate/i2lua) you can add custom logic to your [Invisible Internet](http://i2pd.website) router
  by writing scripts in [Lua](https://en.wikipedia.org/wiki/Lua_%28programming_language%29).
