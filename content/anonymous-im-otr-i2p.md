@@ -81,7 +81,7 @@ You have successfully registered and set up your account.
 Create OTR private key
 ----------------------
 
-![Image]({filename}/images/xmpp-tut/otr-generate.png.png)
+![Image]({filename}/images/xmpp-tut/otr-generate.png)
 
 Options -&gt; Plugins -&gt; select "Off-the-Record Messaging Plugin" -&gt; check "Load this plugin" -&gt; "My private keys" tab -&gt; select your account and press "Generate new key".
 
