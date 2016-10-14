@@ -43,7 +43,7 @@ Configure XMPP client
 
 ![Image]({filename}/images/xmpp-tut/socks-config.png)
 
-Options -&lt; Application -&lt; Proxy settings -&lt; press Edit -&lt; press New -&lt; create proxy "I2P socks", type Socks version 5, Host: 127.0.0.1, port: 4447 -&lt; press Save
+Options -&gt; Application -&gt; Proxy settings -&gt; press Edit -&gt; press New -&gt; create proxy "I2P socks", type Socks version 5, Host: 127.0.0.1, port: 4447 -&gt; press Save
 
 
 
@@ -51,7 +51,7 @@ Options -&lt; Application -&lt; Proxy settings -&lt; press Edit -&lt; press New 
 
 ![Image]({filename}/images/xmpp-tut/client-switch.png)
 
-Options -&lt; Plugins -&lt; select "Client switcher plugin" in dropdown menu -&lt; check "Load this plugin" -&lt; check "For all accounts" -&lt; choose Response mode: not implemented -&lt; check "Deny iq time request" 
+Options -&gt; Plugins -&gt; select "Client switcher plugin" in dropdown menu -&gt; check "Load this plugin" -&gt; check "For all accounts" -&gt; choose Response mode: not implemented -&gt; check "Deny iq time request" 
 
 
 
@@ -60,11 +60,11 @@ Register an account
 
 ![Image]({filename}/images/xmpp-tut/reg1.png)
 
-Account setup -&lt; Add -&lt; Enter your desired account name, check "Register new account" and press Add
+Account setup -&gt; Add -&gt; Enter your desired account name, check "Register new account" and press Add
 
 ![Image]({filename}/images/xmpp-tut/reg2.png)
 
-Fill Server: i2p.rocks -&lt; check "Manually specify Server Host/Port", then fill Host: ynkz7ebfkllljitiodcq52pa7fgqziomz4wa7tv4qiqldghpx4uq.b32.i2p, Port: 5222, select Proxy "I2P Socks". Press Next
+Fill Server: i2p.rocks -&gt; check "Manually specify Server Host/Port", then fill Host: ynkz7ebfkllljitiodcq52pa7fgqziomz4wa7tv4qiqldghpx4uq.b32.i2p, Port: 5222, select Proxy "I2P Socks". Press Next
 
 ![Image]({filename}/images/xmpp-tut/reg3.png)
 
@@ -83,7 +83,7 @@ Create OTR private key
 
 ![Image]({filename}/images/xmpp-tut/otr-generate.png.png)
 
-Options -&lt; Plugins -&lt; select "Off-the-Record Messaging Plugin" -&lt; check "Load this plugin" -&lt; "My private keys" tab -&lt; select your account and press "Generate new key".
+Options -&gt; Plugins -&gt; select "Off-the-Record Messaging Plugin" -&gt; check "Load this plugin" -&gt; "My private keys" tab -&gt; select your account and press "Generate new key".
 
 
 
