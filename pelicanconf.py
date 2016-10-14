@@ -111,3 +111,6 @@ for css in css_theme_stylesheets:
 
 # add local site stylesheet override
 CSS_FILES.append(css_local_override)
+
+# folders for static files
+STATIC_PATHS = ['images']
