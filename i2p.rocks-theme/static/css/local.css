@@ -57,3 +57,7 @@ article header a:hover {
 pre {
     white-space: pre;
 }
+
+ul {
+    color: #333;
+}

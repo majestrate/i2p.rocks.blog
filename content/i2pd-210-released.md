@@ -4,7 +4,7 @@ Category: blog
 Title: i2pd 2.10 released
 Authors: PurpleI2P Team
 
-[http://i2pd.website/](i2pd) (I2P Daemon) is a full-featured C++ implementation of I2P client.
+[i2pd](http://i2pd.website/) (I2P Daemon) is a full-featured C++ implementation of I2P client.
 
 I2P (Invisible Internet Protocol) is a universal anonymous network layer. All communications over I2P are anonymous and end-to-end encrypted, participants don't reveal their real IP addresses.
 
@@ -12,9 +12,9 @@ I2P client is a software used for building and using anonymous I2P networks. Suc
 
 I2P allows people from all around the world to communicate and share information without restrictions.
 
-i2pd is licensed under the 3-clause BSD license, [https://github.com/PurpleI2P/i2pd/releases/tag/2.10.0](binary packages are available) for Debian, Ubuntu, OS X, FreeBSD, Android and Windows.
+i2pd is licensed under the 3-clause BSD license, [binary packages are available](https://github.com/PurpleI2P/i2pd/releases/tag/2.10.0) for Debian, Ubuntu, OS X, FreeBSD, Android and Windows.
 
-[https://github.com/PurpleI2P/i2pd/releases/tag/2.10.0](View release on GitHub)
+[View release on GitHub](https://github.com/PurpleI2P/i2pd/releases/tag/2.10.0)
 
 **Changelog for i2pd version 2.10:**
 
