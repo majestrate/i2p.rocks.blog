@@ -36,8 +36,6 @@ Okay, let's try another approach:
 
 It fails and doesn't execute. Neato. It's not entirely a pipe as it puts a file down but close enough right?
 
-But... Why?
-
 ![curlpipe found in the wild]({filename}/images/gpg-pipe/curlpipe.jpg)
 
 If for some unholy reason you feel the need to use a curlpipe, PLEASE FOR ALL THAT IS GOOD use a gpg condom.
