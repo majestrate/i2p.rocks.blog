@@ -5,7 +5,10 @@ Title: gpgpipe, an alternative for people who want to curlpipe
 
 The term curlpipe comes from using the program curl to download a file and immediately executing the file via a pipe in the command line ([this is bad and you should feel bad for doing this](https://gnu.moe/wallofshame.md))
 
+![curlpipe found in the wild]({filename}/images/gpg-pipe/curlpipe.jpg)
+
 Regardless of the obvious security concerns, many projects feel the need to tell users to execute arbitrary scripts transmitted over plaintext. Is there a workarround for these people? I believe there is now: just pipe it through gpg.
+
 
 But wait, that won't actually work.
 
@@ -36,9 +39,7 @@ Okay, let's try another approach:
 
 It fails and doesn't execute. Neato. It's not entirely a pipe as it puts a file down but close enough right?
 
-![curlpipe found in the wild]({filename}/images/gpg-pipe/curlpipe.jpg)
-
-If for some unholy reason you feel the need to use a curlpipe, PLEASE FOR ALL THAT IS GOOD use a gpg condom.
+In conclusion, if for some unholy reason you feel the need to use a curlpipe, PLEASE FOR ALL THAT IS GOOD use a gpg condom.
 
     gpg --clearsign script.sh
 
