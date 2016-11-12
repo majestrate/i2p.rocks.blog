@@ -10,9 +10,11 @@ p.header-image > img { height: 300px; }
 </style>
 
 <p class="header-image">
+<!--
 ![Image]({filename}/images/blue_tunnel.jpg)
 
 [image by carsten](https://flic.kr/p/hz64w)
+-->
 </p>
 
 > A darknet (or dark net) is an overlay network that can only be accessed with specific software, configurations, or authorization, often using non-standard communications protocols and ports.
