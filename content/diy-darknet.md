@@ -4,6 +4,16 @@ Category: blog
 Title: DIY darknet for fun and profit
 Authors: Invisible Villain
 
+<style>
+p.header-image { text-align: center; font-size: 0.6em; }
+p.header-image > img { height: 300px; }
+</style>
+
+<p class="header-image">
+![Image]({filename}/images/blue_tunnel.jpg)
+
+[image by carsten](https://flic.kr/p/hz64w)
+</p>
 
 > A darknet (or dark net) is an overlay network that can only be accessed with specific software, configurations, or authorization, often using non-standard communications protocols and ports.
 
@@ -11,9 +21,6 @@ Well known example of the darknet is the Onionland -- public darknet created wit
 This article will show you how to create your own darknet with Invisible Internet Protocol (I2P) for fun and profit.
 Unlike the Onionland, it will be fully distributed and suitable for any type of private and anonymous communications.
 
-![Image]({filename}/images/blue_tunnel.jpg)
-
-[image by carsten](https://flic.kr/p/hz64w)
 
 
 How own darknet can be useful
