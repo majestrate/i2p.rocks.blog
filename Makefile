@@ -17,6 +17,8 @@ SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www/html/blog/
 
+IPNS_KEY=/home/jeff/blog.key
+
 S3_BUCKET=my_s3_bucket
 
 CLOUDFILES_USERNAME=my_rackspace_username
@@ -50,6 +52,7 @@ help:
 	@echo '   make s3_upload                   upload the web site via S3         '
 	@echo '   make cf_upload                   upload the web site via Cloud Files'
 	@echo '   make github                      upload the web site via gh-pages   '
+	@echo '   make ipfs                        upload the web site to ipfs        '
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
 	@echo '                                                                       '
@@ -107,4 +110,7 @@ github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
+ipfs: publish
+	ipns-pub -key=$(IPNS_KEY) `ipfs add -r $(OUTPUTDIR) | tail -n1 | cut -d' ' -f2`
+
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github ipfs
