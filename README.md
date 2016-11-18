@@ -10,11 +10,18 @@
 
 ### setting up ###
 
-    git clone --recusrive https://github.com/majestrate/i2p.rocks.blog
+    git clone https://github.com/majestrate/i2p.rocks.blog
     cd i2p.rocks.blog
-    make clean html
+    make clean
+
+#### tools for ipfs publishing ####
+
+	https://github.com/ipfs/go-ips
+	https://github.com/whyrusleeping/ipfs-key
+	https://github.com/whyrusleeping/ipns-pub
+	
 
 ### deploying ###
 
-    make publish ssh_upload
+    make publish ssh_upload ipfs
 
