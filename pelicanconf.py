@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jeff'
 SITENAME = u'i2p.rocks -- blog about i2p and other stuff'
-SITEURL = 'https://i2p.rocks/blog'
+SITEURL = '.'
 
 PATH = 'content'
 
@@ -41,7 +41,7 @@ RELATIVE_URLS = True
 # begin custom configuration
 
 # path to plugins directory
-PLUGINS_PATHS = ['pelican-plugins']
+PLUGINS_PATHS = []
 
 # plugins in use
 PLUGINS = [
