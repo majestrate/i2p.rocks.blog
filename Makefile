@@ -8,16 +8,17 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-FTP_HOST=ocean.hype
-FTP_USER=jeff
-FTP_TARGET_DIR=/blog
+FTP_HOST=
+FTP_USER=
+FTP_TARGET_DIR=
 
 SSH_HOST=i2p.rocks
 SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www/html/blog/
 
-IPNS_KEY=/home/jeff/blog.key
+# change this to the path to your ipns private key
+IPNS_KEY=~/blog.key
 
 S3_BUCKET=my_s3_bucket
 
