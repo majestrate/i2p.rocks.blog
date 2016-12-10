@@ -17,7 +17,9 @@
 #### tools for ipfs publishing ####
 
 https://github.com/ipfs/go-ips
+
 https://github.com/whyrusleeping/ipfs-key
+
 https://github.com/whyrusleeping/ipns-pub
 	
 
