@@ -12,7 +12,7 @@
 
     git clone https://github.com/majestrate/i2p.rocks.blog
     cd i2p.rocks.blog
-    make clean
+    make clean publish
 
 #### tools for ipfs publishing ####
 
@@ -21,9 +21,13 @@ https://github.com/whyrusleeping/ipfs-key
 https://github.com/whyrusleeping/ipns-pub
 	
 
-### deploying ###
+### deploying via ssh ###
 
-    make publish ssh_upload ipfs
+    make ssh_upload
+    
+### deploying via ips ###
+
+    make ipfs
 
 
 #### ipfs deploy notes ####
