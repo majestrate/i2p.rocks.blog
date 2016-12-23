@@ -4,10 +4,10 @@ Category: blog
 Title: Connecting to I2P network through restrictive firewalls
 Authors: Darknet Villain
 
-If you'll ever experience problems with connecting to [I2P network](https://i2pd.website), your Internet Service Provider may be blocking access to I2P bootstrap servers.
+If you'll ever experience problems with connecting to [I2P network](http://i2pd.website), your Internet Service Provider may be blocking access to I2P bootstrap servers.
 It is not a big deal if you have access to GitHub.
 
-Edit reseed section in your [i2pd](https://i2pd.website) config file `i2pd.conf` file like that:
+Edit reseed section in your [i2pd](http://i2pd.website) config file `i2pd.conf` file like that:
 
     [reseed]
     verify = true
