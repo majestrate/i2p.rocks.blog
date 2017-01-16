@@ -10,7 +10,7 @@ Java i2p has some utilities deep within their codebase for this but no documenta
 
 Building:
 
-    git clone --recursive https://github.com/purplei2pd/i2pd-tools
+    git clone --recursive https://github.com/purplei2p/i2pd-tools
     cd i2pd-tools
     make 
 
