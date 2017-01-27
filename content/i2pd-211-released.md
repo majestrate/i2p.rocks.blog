@@ -1,4 +1,4 @@
-Date: 2016-11-23
+Date: 2016-12-23
 Tags: i2p, i2pd, release
 Category: blog
 Title: i2pd 2.11 released
