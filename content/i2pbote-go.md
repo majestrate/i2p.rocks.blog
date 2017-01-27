@@ -1,6 +1,6 @@
 Date: 2017-01-27
 Tags: i2p, i2pbote
-Category: blog, development
+Category: development
 Title: i2pbote in go coming soon and i2p.rocks irc reverse proxy
 Authors: Jeff
 
