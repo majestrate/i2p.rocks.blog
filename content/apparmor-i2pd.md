@@ -1,14 +1,14 @@
 Date: 2017-02-10
-Tags: i2p, i2pd, Ubuntu, Debian, AppArmor, Security, Hardending
+Tags: i2p, i2pd, Ubuntu, Debian, AppArmor, Security, Hardening
 Category: blog
-Title: Hardending i2pd setup with AppArmor
+Title: Hardening i2pd setup with AppArmor
 Authors: Darknet Villain
 
 Quoting Wikipedia:
 
 > AppArmor ("Application") is a Linux kernel security module that allows the system administrator to restrict programs' capabilities with per-program profiles. Profiles can allow capabilities like network access, raw socket access, and the permission to read, write, or execute files on matching paths. AppArmor supplements the traditional Unix discretionary access control (DAC) model by providing mandatory access control (MAC). It was included in the mainline Linux kernel since version 2.6.36 and its development has been supported by Canonical since 2009.
 
-It is a great tool to hardend security for any of your applications on Linux, 
+It is a great tool to harden security for any of your applications on Linux, 
 including [Invisible Internet router](http://i2pd.website).
 
 Now we have added [i2pd profile for AppArmor](https://raw.githubusercontent.com/PurpleI2P/i2pd/openssl/contrib/apparmor/usr.sbin.i2pd) 
