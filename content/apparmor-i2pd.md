@@ -37,6 +37,13 @@ Finally, enable it:
 
     sudo aa-enforce /usr/sbin/i2pd
 
+Now, every behavior which is not allowed by the profile will be restricted and such event will be logged to syslog.
+You may want to periodically inspect logged events with the following command:
+
+    sudo aa-logprof
+
+Generally, it should not show anything (which is good).
+
 Notes
 -----
 
