@@ -115,4 +115,5 @@ CSS_FILES.append(css_local_override)
 # folders for static files
 STATIC_PATHS = ['images']
 
-OPEN_GRAPH_IAMGE = 'og-logo.png'
+OPEN_GRAPH_IMAGE = 'theme/images/og-logo.png'
+FAVICON = OPEN_GRAPH_IMAGE
