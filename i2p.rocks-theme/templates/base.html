@@ -9,7 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     {# Favicons are a touchy subject. For reasoning for the following code, see: http://stackoverflow.com/a/23851464/872397 #}
     {% if FAVICON %}
     <link href="{{ SITEURL }}/{{ FAVICON }}" rel="icon">
@@ -37,11 +36,11 @@
         <meta property="og:site_name" content="{{ SITENAME }}" />
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="{{ SITENAME }}"/>
-        <meta property="og:url" content="{{ SITEURL }}"/>
+        <meta property="og:url" content="{{ ABS_SITEURL }}"/>
         <meta property="og:description" content="{{ SITENAME }}"/>
         {% if OPEN_GRAPH_IMAGE %}
             <meta property="og:image"
-                  content="{{ SITEURL }}/{{ OPEN_GRAPH_IMAGE }}"/>
+                  content="{{ ABS_SITEURL }}/{{ OPEN_GRAPH_IMAGE }}"/>
         {% endif %}
     {% endblock %}
     {% endif %}

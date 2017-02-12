@@ -117,3 +117,5 @@ STATIC_PATHS = ['images']
 
 OPEN_GRAPH_IMAGE = 'theme/images/og-logo.png'
 FAVICON = OPEN_GRAPH_IMAGE
+
+ABS_SITEURL = 'https://i2p.rocks/blog'
