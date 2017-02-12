@@ -25,7 +25,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('I2P', 'https://geti2p.net/'),)
 
-SOCIAL = (('GitHub', 'https://github.com/majestrate'), 
+SOCIAL = (('GitHub', 'https://github.com/majestrate'),
            ('Twitter', 'https://twitter.com/ampernand'),
            ('RSS', FEED_DOMAIN + '/' + FEED_ALL_RSS))
 # markdown extensions
@@ -99,7 +99,7 @@ if use_jquery:
 
 
 # append css theme script files
-for js in theme_jsfiles:        
+for js in theme_jsfiles:
     JS_FILES.append(js)
 
 # add css theme to css stylesheets
@@ -114,3 +114,5 @@ CSS_FILES.append(css_local_override)
 
 # folders for static files
 STATIC_PATHS = ['images']
+
+OPEN_GRAPH_IAMGE = 'og-logo.png'
