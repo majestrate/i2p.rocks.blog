@@ -59,4 +59,4 @@ Now let's start twister and have it fork into the background:
 
     $ twisterd -daemon
 
-The web ui will be located at `http://127.0.0.1:28332/` . You'll need to register a new username, right now many names are squatted so be creative. After registering a user you'll have to wait a few minutes to get onto the blockchain, mining blocks may help speed up the process. The edit profile page at `http://127.0.0.1:28332/profile-edit.html` will be enabled once your user is accepted into the blockchain you can start posting, enjoy.
+The web ui will be located at `http://127.0.0.1:28332/` . You'll need to register a new username, right now many names are squatted so be creative. After registering a user you'll have to wait a few minutes to get onto the blockchain, mining blocks may help speed up the process. The edit profile page at `http://127.0.0.1:28332/profile-edit.html` will be enabled once your user is accepted into the blockchain you can start posting, enjoy. You can follow me on twister, @jboss.
