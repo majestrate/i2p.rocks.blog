@@ -18,7 +18,7 @@ Advantages:
 * Every commit is signed
 * It's not Git
 
-Monotone's `mtn push` and `mtn pull` are not atomic, they can resume if interrupted. This is a [YUUUGE]({{filename}}/images/mtn/yuuuge.jpg) advantage over git as tcp/i2p connections break quite often, git would have to start from the very beginning if interrupted. While there are github mirrors of the source code, this is most likely the main reason why Java I2P continues to use monotone exclusively.
+Monotone's `mtn push` and `mtn pull` are not atomic, they can resume if interrupted. This is a [YUUUGE]({filename}/images/mtn/yuuuge.jpg) advantage over git as tcp/i2p connections break quite often, git would have to start from the very beginning if interrupted. While there are github mirrors of the source code, this is most likely the main reason why Java I2P continues to use monotone exclusively.
 
 Monotone sounds great for I2P, right? Perhaps not, as with all things it's not without pitfalls.
 
@@ -28,7 +28,7 @@ Disadvantages:
 * It's rather Obscure, Higher barrier of entry for new contributors
 * It's not Git
 
-Most developers never heard of monotone, let alone know how to use it. This is a [YUUUGE]({{filename}}/images/mtn/yuuuge.jpg) disadvantage for Java I2P. Most new contributors give up before submitting any code or patches because of monotone (myself included).
+Most developers never heard of monotone, let alone know how to use it. This is a [YUUUGE]({filename}/images/mtn/yuuuge.jpg) disadvantage for Java I2P. Most new contributors give up before submitting any code or patches because of monotone (myself included).
 
 This is a guide to try and break that cycle.
 
