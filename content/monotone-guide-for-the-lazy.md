@@ -152,3 +152,5 @@ If you want to start contributing code, this is where the hard part happens. Usu
 Most people quit half way through, but there is a faster way: run your own monotone server.
 
 If you feel like having a fun and painful adventure, check out the monotone manual, `man mtn`.
+
+For more info on contributing, check out the [new developers guide](https://geti2p.net/en/get-involved/guides/new-developers) on the Java I2P website.
