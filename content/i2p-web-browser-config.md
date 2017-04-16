@@ -1,4 +1,4 @@
-Date: 2017-03-21
+Date: 2017-04-16
 Tags: i2p, tutorial
 Category: blog
 Title: I2P Browser Configuration Tutorial, the "Proper" way.
