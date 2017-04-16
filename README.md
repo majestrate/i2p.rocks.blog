@@ -14,26 +14,16 @@
     cd i2p.rocks.blog
     make clean publish
 
-#### tools for ipfs publishing ####
-
-https://github.com/ipfs/go-ips
-
-https://github.com/whyrusleeping/ipfs-key
-
-https://github.com/whyrusleeping/ipns-pub
-	
-
 ### deploying via ssh ###
 
     make ssh_upload
-    
-### deploying via ips ###
 
-    make ipfs
+## New Blog Posts ##
 
+Copy `templates/blog.md` to `content/name-of-blog-post.md`
 
-#### ipfs deploy notes ####
+edit `content/name-of-blog-post.md`
 
-add this to crontab to ensure that the ipns entry sticks
+commit with `git add content/name-of-blog-post.md`
 
-	0 * * * * make -C /path/to/this/repo ipfs
+add pull request.
