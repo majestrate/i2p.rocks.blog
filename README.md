@@ -24,6 +24,6 @@ Copy `templates/blog.md` to `content/name-of-blog-post.md`
 
 edit `content/name-of-blog-post.md`
 
-commit with `git add content/name-of-blog-post.md`
+commit with `git add content/name-of-blog-post.md && git commit -a`
 
 add pull request.
