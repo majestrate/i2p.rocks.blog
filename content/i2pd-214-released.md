@@ -1,4 +1,4 @@
-Date: 2017-04-17
+Date: 2017-06-04
 Tags: i2p, i2pd, release
 Category: blog
 Title: i2pd 2.14 released
