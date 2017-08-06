@@ -3,9 +3,11 @@ Tags: i2p, i2pd, tutorial
 Category: blog
 Title: Cross-Compile static I2PD for Raspberry Pi
 
+(this guide is probably out of date)
+
 I have recently successfully built [i2pd](http://i2pd.website) for the raspberry pi using a cross compiler on Ubuntu 16.04 LTS for amd64. So far i2pd has an uptime of over a week with no crashes or memory leaks running a small [irc server](irc://6mk5za2izxm5ubu7bhzw3io7x5h6yjnlc7iccmn2ilbwptceaiwq.b32.i2p/). There are still a few things i2pd could do better, specifically more documentation but I digress.
 
-## Building 
+## Building
 
 First off if you don't have `git` install it along with the basic compiler stuffs.
 
@@ -24,7 +26,7 @@ We don't want to mix the libraries we are going to build with our system librari
     $ mkdir -p "$RPI/src"
 
 
-Optionally you can have `$RPI` defined in `.bashrc` so you don't have to export it every time you want to build: 
+Optionally you can have `$RPI` defined in `.bashrc` so you don't have to export it every time you want to build:
 
 `$ echo 'export RPI="~/rpi"' >> ~/.bashrc`
 
