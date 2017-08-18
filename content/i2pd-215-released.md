@@ -24,7 +24,7 @@ i2pd is licensed under the 3-clause BSD license, [binary packages are available]
 * Ability to disable SOCKS outproxy option
 
 ### Changed
-* Strip-out Accept-* hedaers in HTTP proxy
+* Strip-out Accept-* headers in HTTP proxy
 * Don't run peer test if nat=false
 * Separate output of NTCP and SSU sessions in Transports tab
 
