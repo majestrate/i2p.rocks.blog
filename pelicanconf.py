@@ -52,6 +52,7 @@ THEME = 'i2p.rocks-theme'
 
 # keywords for meta tag
 KEYWORDS = [
+    "i2pd",
     "i2p",
     "development",
     "nntpchan",
