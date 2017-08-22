@@ -12,7 +12,7 @@
 
     git clone https://github.com/majestrate/i2p.rocks.blog
     cd i2p.rocks.blog
-    make clean publish
+    make html
 
 ### deploying via ssh ###
 

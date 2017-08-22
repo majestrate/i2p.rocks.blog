@@ -1,0 +1,12 @@
+
+name = "i2procks"
+license = "MIT"
+description = "hugo i2p.rocks theme"
+homepage = "https://github.com/majestrate/i2p.rocks.blog"
+tags = []
+features = []
+min_version = "0.26"
+
+[author]
+  name = "jeff"
+  homepage = "https://i2p.rocks/"

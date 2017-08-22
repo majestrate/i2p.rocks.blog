@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>i2p.rocks blog</title>
+    <link>https://i2p.rocks/blog/</link>
+    <description>Recent content on i2p.rocks blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://i2p.rocks/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/anonymous-im-otr-i2p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/anonymous-im-otr-i2p/</guid>
+      <description>Date: 2016-10-14 Tags: i2p, i2pd, xmpp, IM, OTR Category: blog Title: Anonymous instant messaging with end-to-end encryption Authors: Invisible Villain
+Centralized commercial IM providers are a real threat to our privacy. They often require users to run proprietary software, confirm their identity with SMS and give away control over their data.
+We always have a freedom to take control back over our private communications.
+In this tutorial, we will use XMPP as decentralized and open-source instant messaging system, OTR for end-to-end encryption and I2P network to anonymize our network activities.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/apparmor-i2pd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/apparmor-i2pd/</guid>
+      <description>Date: 2017-02-10 Tags: i2p, i2pd, Ubuntu, Debian, AppArmor, Security, Hardening Category: blog Title: Hardening i2pd setup with AppArmor Authors: Darknet Villain
+Quoting Wikipedia:
+ AppArmor (&amp;ldquo;Application&amp;rdquo;) is a Linux kernel security module that allows the system administrator to restrict programs&amp;rsquo; capabilities with per-program profiles. Profiles can allow capabilities like network access, raw socket access, and the permission to read, write, or execute files on matching paths. AppArmor supplements the traditional Unix discretionary access control (DAC) model by providing mandatory access control (MAC).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/bootstrap-i2pd-from-github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/bootstrap-i2pd-from-github/</guid>
+      <description>Date: 2016-11-25 Tags: i2p, i2pd, GFW, freedom Category: blog Title: Connecting to I2P network through restrictive firewalls Authors: Darknet Villain
+If you&amp;rsquo;ll ever experience problems with connecting to I2P network, your Internet Service Provider may be blocking access to I2P bootstrap servers. It is not a big deal if you have access to GitHub.
+Edit reseed section in your i2pd config file i2pd.conf file like that:
+[reseed] verify = true file = https://github.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/building-twisterd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/building-twisterd/</guid>
+      <description>Date: 2017-02-18 Tags: twister Category: blog Title: Twister the little known p2p twitter Authors: Jeff
+Twister is a little known p2p twitter alternative that uses blockchain and bittorrent technology. Not very many people use twister which is discouraging but the technology powering it is nevertheless genius. Please note that twister is not anonymous by default, I&amp;rsquo;ll cover how to set up twister to run over tor in a future blog maybe.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/dailystormer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/dailystormer/</guid>
+      <description>Date: 2017-08-17 Tags: i2p Category: blog Title: I2Pd and friends do not care if the left thinks you&amp;rsquo;re a bigot. Authors: Jeff
+Recently Tor Project published a blog condemning The Daily Stormer (a very prominent white nationalist forum that has been marginalized off the internet) setting up a hidden service. This is very concerning to all, the light of anonymous free speech seems to have dimmed as a result. It&amp;rsquo;s only free speech until someone calls it hateful&amp;hellip; is that what the good people over at Tor Project think?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/diy-darknet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/diy-darknet/</guid>
+      <description>Date: 2016-11-13 Tags: i2p, i2pd, darknet, research Category: blog Title: DIY darknet for fun and profit Authors: Invisible Villain
+ p.header-image { text-align: center; font-size: 0.6em; } p.header-image  img { height: 300px; }   A darknet (or dark net) is an overlay network that can only be accessed with specific software, configurations, or authorization, often using non-standard communications protocols and ports.
+ Well known example of the darknet is the Onionland &amp;ndash; public darknet created with Tor software.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/fed-up-with-systemd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/fed-up-with-systemd/</guid>
+      <description>Date: 2015-09-12 Tags: linux, systemd, gnu, FreeBSD Category: blog Title: Fed up with SystemD
+This morning I woke up with no network connection on my desktop. After checking the ports and doing systemctl restart networking a few times I finally got online. Don&amp;rsquo;t get me wrong, I want a &amp;lsquo;one golden standard&amp;rsquo; for the Linux userland, I just don&amp;rsquo;t want SystemD. With SystemD it&amp;rsquo;s the little things that make the experience painful, you know, fucky network connectivity, no keyboard access before you can unlock your disks when you use FDE, loosing both X and tty when X crashes.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/git-over-i2p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/git-over-i2p/</guid>
+      <description>Date: 2016-07-29 Tags: i2p, git, tutorial Category: blog Title: self hosted git inside i2p
+This is a quick howto guide on setting up a very minimal git repo for sharing code inside i2p using any modern linux distro. (What is git?)
+Please note this is not a general git tutorial, you will need to know a little git.
+Simple setup Git proxy settings are easy, it&amp;rsquo;s deep in the man pages but usually there&amp;rsquo;s no need to set them it seems daunting.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/gpg-pipe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/gpg-pipe/</guid>
+      <description>Date: 2016-10-22 Tags: gpg Category: blog Title: gpgpipe, an alternative for people who want to curlpipe
+The term curlpipe comes from using the program curl to download a file and immediately executing the file via a pipe in the command line (this is bad and you should feel bad for doing this)
+Regardless of the obvious security concerns, many projects feel the need to tell users to execute arbitrary scripts transmitted over plaintext.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2p-rocks-proxy-down-again/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2p-rocks-proxy-down-again/</guid>
+      <description>Date: 2016-07-20 Tags: i2p, inproxy Category: blog Title: i2p.rocks in proxy down for rewrite
+i2p.rocks inproxy will be done again until I get a chance to rewrite the in proxy app server in full, the nginx configuration I was using stopped working as of nginx 1.10.
+The source code is on github here, feel free to help out.
+This project is not a very high priority and i2p.rocks will be back up once this rewrite is done.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2p-rocks-proxy-down/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2p-rocks-proxy-down/</guid>
+      <description>Date: 2015-03-02 Tags: irc, i2p, inproxy Category: blog Title: i2p.rocks in proxy down for a bit
+i2p.rocks in proxy will be down for a bit since I have moved my VPS to digital ocean. I will need another VPS in order to host the in proxy since the i2p.rocks in proxy probably violates the ToS of digital ocean. Until the service is restored use i2p.xyz. To expidite the process of getting another VPS to host the in proxy donate to my bitcoin address.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2p-rocks-proxy-up-again/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2p-rocks-proxy-up-again/</guid>
+      <description>Date: 2017-01-01 Tags: i2p, inproxy Category: blog Title: i2p.rocks in proxy up (again)
+i2p.rocks in proxy is up again.
+give it a go
+ssl cert is only for i2p.rocks so your browser will complain.
+If there are any problems or concerns with the in proxy please contact me on xmpp: jeff@i2p.rocks</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2p-rocks-proxy-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2p-rocks-proxy-up/</guid>
+      <description>Date: 2016-02-17 Tags: i2p, inproxy Category: blog Title: i2p.rocks is back up
+i2p.rocks in proxy is now back and powered by i2pd, a pure C++ i2p router implementation.
+In time I may also provide an i2pbote gateway as well.
+contact me if there is any trouble with the in proxy on jabber via jeff@rows.io
+donate bitcoin to keep the in proxy alive: 15yuMzuueV8y5vPQQ39ZqQVz5Ey98DNrjE</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2p-rocks-xmpp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2p-rocks-xmpp/</guid>
+      <description>Date: 2016-09-22 Tags: xmpp, i2p Category: blog Title: i2p.rocks xmpp
+Quick update: For those who don&amp;rsquo;t know, i2p.rocks has a federated jabber server with open registration (for now) and is available on i2p, via ynkz7ebfkllljitiodcq52pa7fgqziomz4wa7tv4qiqldghpx4uq.b32.i2p:5222 (the port is important).
+This blog is now also reachable via i2p here</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2p-web-browser-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2p-web-browser-config/</guid>
+      <description>Date: 2017-04-16 Tags: i2p, tutorial Category: blog Title: I2P Browser Configuration Tutorial, the &amp;ldquo;Proper&amp;rdquo; way. Authors: Jeff
+Preface Tor browser provides a great brain dead simple interface for using the internet anonymously. Sadly you cannot really hack on it easily because modifying defaults is considered harmful by most people (opinion). This is a step by step guide on configuring a browser to use i2p for i2p and tor for everything else.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2pbote-go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2pbote-go/</guid>
+      <description>Date: 2017-01-27 Tags: i2p, i2pbote Category: development Title: i2pbote in go coming soon and i2p.rocks irc reverse proxy Authors: Jeff
+I have started working on an i2pbote implementation in go on github. Currently it is non functional but in the coming months I&amp;rsquo;ll be blogging about the development process as things get done.
+If you know go and want to help expedite the development, get onto irc2p and join #i2p-chat channel.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2pd-210-released/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2pd-210-released/</guid>
+      <description>Date: 2016-10-17 Tags: i2p, i2pd, release Category: blog Title: i2pd 2.10 released Authors: PurpleI2P Team
+i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client.
+I2P (Invisible Internet Protocol) is a universal anonymous network layer. All communications over I2P are anonymous and end-to-end encrypted, participants don&amp;rsquo;t reveal their real IP addresses.
+I2P client is a software used for building and using anonymous I2P networks. Such networks are commonly used for anonymous peer-to-peer applications (filesharing, cryptocurrencies) and anonymous client-server applications (websites, instant messengers, chat-servers).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2pd-211-released/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2pd-211-released/</guid>
+      <description>Date: 2016-12-23 Tags: i2p, i2pd, release Category: blog Title: i2pd 2.11 released Authors: PurpleI2P Team
+i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client.
+I2P (Invisible Internet Protocol) is a universal anonymous network layer. All communications over I2P are anonymous and end-to-end encrypted, participants don&amp;rsquo;t reveal their real IP addresses.
+I2P client is a software used for building and using anonymous I2P networks. Such networks are commonly used for anonymous peer-to-peer applications (filesharing, cryptocurrencies) and anonymous client-server applications (websites, instant messengers, chat-servers).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2pd-212-released/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2pd-212-released/</guid>
+      <description>Date: 2017-02-16 Tags: i2p, i2pd, release Category: blog Title: i2pd 2.12 released Authors: PurpleI2P Team
+i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client.
+I2P (Invisible Internet Protocol) is a universal anonymous network layer. All communications over I2P are anonymous and end-to-end encrypted, participants don&amp;rsquo;t reveal their real IP addresses.
+I2P client is a software used for building and using anonymous I2P networks. Such networks are commonly used for anonymous peer-to-peer applications (filesharing, cryptocurrencies) and anonymous client-server applications (websites, instant messengers, chat-servers).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2pd-213-released/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2pd-213-released/</guid>
+      <description>Date: 2017-04-17 Tags: i2p, i2pd, release Category: blog Title: i2pd 2.13 released Authors: PurpleI2P Team
+i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client.
+I2P (Invisible Internet Protocol) is a universal anonymous network layer. All communications over I2P are anonymous and end-to-end encrypted, participants don&amp;rsquo;t reveal their real IP addresses.
+I2P client is a software used for building and using anonymous I2P networks. Such networks are commonly used for anonymous peer-to-peer applications (filesharing, cryptocurrencies) and anonymous client-server applications (websites, instant messengers, chat-servers).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2pd-214-released/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2pd-214-released/</guid>
+      <description>Date: 2017-06-04 Tags: i2p, i2pd, release Category: blog Title: i2pd 2.14 released Authors: PurpleI2P Team
+i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client.
+I2P (Invisible Internet Protocol) is a universal anonymous network layer. All communications over I2P are anonymous and end-to-end encrypted, participants don&amp;rsquo;t reveal their real IP addresses.
+I2P client is a software used for building and using anonymous I2P networks. Such networks are commonly used for anonymous peer-to-peer applications (filesharing, cryptocurrencies) and anonymous client-server applications (websites, instant messengers, chat-servers).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2pd-215-released/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2pd-215-released/</guid>
+      <description>Date: 2017-08-17 Tags: i2p, i2pd, release Category: blog Title: i2pd 2.15 released Authors: PurpleI2P Team
+i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client.
+I2P (Invisible Internet Protocol) is a universal anonymous network layer. All communications over I2P are anonymous and end-to-end encrypted, participants don&amp;rsquo;t reveal their real IP addresses.
+I2P client is a software used for building and using anonymous I2P networks. Such networks are commonly used for anonymous peer-to-peer applications (filesharing, cryptocurrencies) and anonymous client-server applications (websites, instant messengers, chat-servers).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2pd-keyinfo-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2pd-keyinfo-tool/</guid>
+      <description>Date: 2017-01-16 Tags: i2p, i2pd Category: blog Title: i2pd keyinfo tool and more Authors: Jeff
+If you ever ran i2p you&amp;rsquo;ve noticed that both java i2p and i2pd use a web ui for most interactions. For some (most, if you count &amp;ldquo;power users&amp;rdquo;) this is not desirable. Until recently there existed no documented command line tools for simple tasks (i.e. getting the b32 address of a destination given a private key file).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2pd-on-rpi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2pd-on-rpi/</guid>
+      <description>Date: 2016-06-26 Tags: i2p, i2pd, tutorial Category: blog Title: Cross-Compile static I2PD for Raspberry Pi
+(this guide is probably out of date)
+I have recently successfully built i2pd for the raspberry pi using a cross compiler on Ubuntu 16.04 LTS for amd64. So far i2pd has an uptime of over a week with no crashes or memory leaks running a small irc server. There are still a few things i2pd could do better, specifically more documentation but I digress.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/i2pd-ppa-announce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/i2pd-ppa-announce/</guid>
+      <description>Date: 2016-12-23 Tags: i2p, i2pd, Ubuntu, Linux Mint, PPA Category: blog Title: PPA repository for i2pd is available Authors: Darknet Villain
+Good news for Ubuntu/Linux Mint users of Invisible Internet! You can now install i2pd very easily from PPA repository created by community member R4SAS.
+Add the PPA and install i2pd using the following commands:
+sudo add-apt-repository ppa:purplei2p/i2pd sudo apt-get update sudo apt-get install i2pd  That&amp;rsquo;s it. When new version of i2pd will be available, you&amp;rsquo;ll recieve updates via package manager.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/ipfs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/ipfs/</guid>
+      <description>Date: 2016-11-18 Tags: ipfs Category: blog Title: ipfs access
+this blog can now be accessed via ipfs at /ipns/QmUXNVeuFPqjYRFduTxLkaKB4y6WHV8Drj3gWW2bdamtZU/</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/livechan-net-back/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/livechan-net-back/</guid>
+      <description>Date: 2015-05-10 Tags: livechan Category: blog Title: livechan.net is back?
+Livechan is back.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/livechan-net-down/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/livechan-net-down/</guid>
+      <description>Date: 2015-04-24 Tags: livechan Category: blog Title: livechan.net is down?
+Looks like livechan is down so I have set up an instance of the beta software here.
+If you are interested in helping this project along, fork it on github and submit pull requests when you implement a feature, fix a bug, improve the css or create a new theme.
+(Donate to me to keep this vps up and running)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/livestreams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/livestreams/</guid>
+      <description>Date: 2017-08-06 Tags: blog Category: blog Title: i2p.rocks regular Livestreaming (and podcast ?) Authors: jeff
+I will be doing semi-regular livestreams via i2p.rocks (also via onion) and if I can find someone will be doing a regular on the topic of i2p and related technology.
+Contact me via xmpp if you want to contribute.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/meet-i2lua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/meet-i2lua/</guid>
+      <description>Date: 2016-09-12 Tags: i2p, i2pd, i2lua Category: blog Title: Meet i2lua &amp;ndash; I2P router with &amp;ldquo;smart&amp;rdquo; configuration Authors: Invisible Villain
+With i2lua you can add custom logic to your Invisible Internet router by writing scripts in Lua.
+Lua is a full-featured programming language, which means you can resolve complex issues with it.
+Some basic tasks you can accomplish with i2lua:
+ make all tunnels to have only trusted nodes as first hop (restricted routes, similar to Tor&amp;rsquo;s guard nodes) make I2P router to only use high-speed nodes for building tunnels create tunnels with first hop in specific countries (e.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/mempo-mirror/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/mempo-mirror/</guid>
+      <description>Date: 2015-04-15 Tags: mempo, mirror Category: blog Title: mempo mirror
+i2p.rocks now has a mirror for the mempo linux distrobution here. It was downloaded off of freenet so some files may have not transferred correctly. Be sure to donate to mempo, it&amp;rsquo;s a pretty cool project.
+(Donate to me to keep this mirror up and running)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/monotone-guide-for-the-lazy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/monotone-guide-for-the-lazy/</guid>
+      <description>Date: 2017-03-21 Tags: i2p, monotone, tutorial Category: blog Title: I2P and Monotone, an intro guide for the lazy Authors: Jeff
+Preface Monotone is the version control software used by Java I2P, dn42 and (probably) a few other projects.
+ monotone is a free distributed version control system. It provides a simple, single-file transactional version store, with fully disconnected operation and an efficient peer-to-peer synchronization protocol.
+ Java I2P chose this initially because it was 2006 (aka git doesn&amp;rsquo;t exist yet) and they needed to fast import a CVS dump to rescue their project.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/nntpchan-part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/nntpchan-part-1/</guid>
+      <description>Date: 2015-07-08 Tags: blog, nntpchan, livechan Category: nntpchan Title: NNTPChan Part 1 &amp;ndash; Torchan and Overchan
+After some downtime, I finally got around to restoring my blog since there&amp;rsquo;s something to talk about.
+I have been working on rebasing some software for a decentralized imageboard so that it can work with clearnet.
+Wait wat? Here&amp;rsquo;s The backstory.
+In the beginning, there was Torchan. Rather, there was a version of Torchan that didn&amp;rsquo;t permit that content.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/nntpchan-part-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/nntpchan-part-2/</guid>
+      <description>Date: 2015-08-25 Tags: blog, nntpchan, livechan Category: nntpchan Title: NNTPChan Part 2 &amp;ndash; Overchan and Livechan
+Yay the continuation of the nntpchan blogs is here, part 2 specifically, probably more to come when things go down. In my last blog I talked about the history of overchan, specifically why it came to be but did not really touch on how it came to be.
+There was never one single reference implementation for overchan, it was designed in a way so that the implementation doesn&amp;rsquo;t matter so long as it can speak NNTP properly.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/self-signed-cert-i2p-rocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/self-signed-cert-i2p-rocks/</guid>
+      <description>date: 2015-05-21 tags: blog category: blog title: i2p.rocks now has ssl
+i2p.rocks now uses self signed ssl, check the signed proof
+check out this great guide for PFS with ssl here</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/trial-by-fire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/trial-by-fire/</guid>
+      <description>Date: 2015-04-27 Tags: livechan Category: blog Title: Trial By Fire
+It seems people like the livechan beta. I asked Fred from 8ch.net to explode the test server with users and he sure did not disappoint.
+Thanks to the massive volume of posts that were received when the server was up I was able to find some race conditions in the code.
+Features to come when the server comes back:
+ Moderation Flood control A Captcha that actually works  In the immediate future:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/weechat-otr-irc2p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/weechat-otr-irc2p/</guid>
+      <description>Date: 2014-11-07 Tags: irc, i2p, otr, weechat, tutorial Category: blog Title: i2p irc and otr with weechat
+BIG FAT DISCLAIMER
+This tutorial is not gaurenteed to provide absolute security as some of the components have not been properly audited.
+If you know you are under targeted survailence please by god consult the EFF .
+For a while I have been meaning to start a blog about i2p so here it is.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://i2p.rocks/blog/xmpp-registration-closed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i2p.rocks/blog/xmpp-registration-closed/</guid>
+      <description>Date: 2017-07-23 Tags: xmpp Category: blog Title: i2p.rocks xmpp registration closed Authors: jeff
+My public xmpp server has closed public open registration due to spam.
+If you desire an account contact me on irc2p as psi.</description>
+    </item>
+    
+  </channel>
+</rss>
