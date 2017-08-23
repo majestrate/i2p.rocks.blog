@@ -1,5 +1,11 @@
 # i2p.rocks blog repo #
 
+## Repositories
+
+* [github](https://github.com/majestrate/i2p.rocks.blog/)
+* [tor](http://git.psii2pdloxelodts.onion/psi/i2p.rocks.blog/)
+* [i2p](http://git.psi.i2p/psi/i2p.rocks.blog/)
+
 ## building ##
 
 ### dependancies ###
