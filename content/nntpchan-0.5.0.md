@@ -30,5 +30,3 @@ rizon: irc.rizon.net #nntpchan
 freenode: irc.freenode.org #nntpchan
 
 irc2p: irc.dg.i2p #overchan
-
-cjdns/hype: reseed.i2p.rocks #overchan
