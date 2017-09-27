@@ -3,8 +3,3 @@ article p {
     margin: 0 0 15px;
 }
 .text-default { color: inherit; }
-
-.navbar {
-    position: absolute;
-    top: 0px;
-}
