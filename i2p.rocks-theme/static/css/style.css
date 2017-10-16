@@ -1,5 +1,5 @@
-article p {
-    font-size: 1.1em;
-    margin: 0 0 15px;
+article {
+    font-size: 1.2em;
+    line-height: 2em;
 }
 .text-default { color: inherit; }
