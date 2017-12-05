@@ -1,4 +1,4 @@
-Date: 2017-12-04
+Date: 2017-12-05
 Tags: nntpchan
 Category: blog
 Title: Quitting the net for a bit
