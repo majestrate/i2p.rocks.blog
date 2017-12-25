@@ -38,7 +38,7 @@ The setup process goes as follows:
     Listen 127.0.0.1
     Timeout 600
     DefaultErrorFile "/usr/share/tinyproxy/default.html"
-    Logfile "/dev/null"
+    MaxClients 100
     LogLevel Warning
     PidFile "/run/tinyproxy/tinyproxy.pid"
     MinSpareServers 5
