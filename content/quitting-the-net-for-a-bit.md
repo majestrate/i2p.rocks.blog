@@ -1,6 +1,6 @@
 Date: 2017-12-05
 Tags: nntpchan
-Category: blog
+Category: nntpchan
 Title: Quitting the net for a bit
 Authors: Jeff
 
