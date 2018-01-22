@@ -1,5 +1,5 @@
 Date: 2018-01-22
-Tags: i2p development XD
+Tags: i2p, development, XD
 Category: development
 Title: XD 0.1.0-pre2 released, testers wanted.
 Authors: jeff
