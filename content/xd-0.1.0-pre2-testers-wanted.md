@@ -41,3 +41,6 @@ I have a test torrent on my eepsite [here](http://psi.i2p/mu/ebin.torrent), copy
 
 There is also a small torrent index called [anodex.i2p](http://anodex.i2p/?i2paddresshelper=Je-EL3yA0a1MAtMjup-U13rw0FJ7lxh6iMqNag-W~lHxZX4JOo21XqFZlViXBFoBdjNpDPSE44G3HpCSLnKg5D~Jw-6RiADrlAKId0ZYo2Ilpk5rGjBAzpAjebvGD0PM0eUsm5Y3S4byKTLnT0QFjc~cy7mP~jP~8YbtygqsgBxTl17icSGPQWlPS-mE1XJD1nw8-6pepOxQd-mX0MUrmI8oldeUzHPDxerRm9MM2OADg7lV9GBUjbMnbQm-xu4xiMSZRZbRxTWHql9VDYYvc0l5mbeAzZrMT99vFr~GtEw7yNwIFneweZRb9OaVsOpfBmgHzS~Y0hfqwQPHu8FbLEaAByHcmAFo4FWGMa0oc6m2S8shCzV9l1WDgREwcclPI1H4ScgjyKBeIV4lJlY8RlrvsTspN1p5mtKJMeOijb80v-6SLISSAGCz6FEiSu7o3m3~mi2mmlsltruDmRLZoLXhOEJXxCWYt8KgTMlWgIN~CeV5y8ckvl~rPcjwjQJhBQAEAAcAAA==) that takes uploads without needing an account, source code for the index is located on i2p [here](http://git.psi.i2p/psi/torrent.ano/). Please note that the index does not track swarm stats yet so some (or most) of the torrents may be without seeds.
 
+## bugs
+
+Please report all bugs or problems you encounter to the issue tracker on either [github](https://github.com/majestrate/XD/issues) or [my git](http://git.psi.i2p/psi/XD/issues) .
