@@ -31,6 +31,7 @@ SOCIAL = (('GitHub', 'https://github.com/majestrate'),
 # markdown extensions
 MD_EXTENSIONS = ['codehilite(linenums=False,guess_lang=True,use_pygments=True)', 'extra']
 
+MENUITEMS = (('RSS Feed', FEED_DOMAIN + '/' + FEED_ALL_RSS), )
 
 DEFAULT_PAGINATION = 10
 SUMMARY_MAX_LENGTH = 150
