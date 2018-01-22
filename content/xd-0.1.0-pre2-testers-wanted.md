@@ -33,6 +33,8 @@ then make a symlink for `XD-cli`
 
 on windows you can copy `XD.exe` to `XD-cli.exe`
 
+To run just run the `XD` or `XD.exe` executable in the directory you just created.
+
 ## add some torrents
 
 there is a webui located on loopback [here](http://127.0.0.1:1488/) by default.
