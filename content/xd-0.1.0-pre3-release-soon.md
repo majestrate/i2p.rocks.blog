@@ -1,7 +1,7 @@
 Date: 2018-02-21
 Tags: i2p, development, XD
 Category: development
-Title: XD 0.1.0-pre3 released, release sooooooon ™
+Title: XD 0.1.0-pre3 released, stable release sooooooon ™
 Authors: jeff
 
 XD 0.1.0-pre3 is out on [github](https://github.com/majestrate/XD/releases/tag/v0.1.0-pre3)
