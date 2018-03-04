@@ -9,20 +9,26 @@ Used documents and topics:
 * https://log.cyconet.org/2013/11/25/crossbuilding-debian-packages-with-sbuild-for-raspbian/
 * https://gist.github.com/waja/7639011
 
-#### Install requirements, set distribution to install
+#### Install requirements, add user, set distribution to build chroot
+If you already done steps 1 and 2 before, go to step 3.
 
-    apt-get install gnupg dirmngr curl sbuild ubuntu-dev-tools qemu-user-static binfmt-support
-    export RELEASE="stretch"
+1. Install required packages
 
-Recommended to work under user with full `sudo` access without password prompting.
+    apt-get install sudo gnupg dirmngr curl sbuild ubuntu-dev-tools qemu-user-static binfmt-support
 
-(needed to install packages and mount chroot, requrement by mk-sbuild)
+2. Recommended to work under user with full `sudo` access without password prompting.
+
+`sudo` needed to install packages and mount chroot, requrement by mk-sbuild.
 
 You can ignore second line if want every time write password when it asked.
 
     useradd -m -s /bin/bash -G sudo,sbuild builder
     echo "builder ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+3. Login as builder user and set release variable which we will build chroot for
+
     su - builder
+    export RELEASE="stretch"
 
 #### Creating keyring for raspbian archive used by debootstrap
 
