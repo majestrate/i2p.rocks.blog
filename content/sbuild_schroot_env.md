@@ -13,55 +13,63 @@ Used documents and topics:
 If you already done steps 1 and 2 before, go to step 3.
 
 1. Install required packages
-
-    apt-get install sudo gnupg dirmngr curl sbuild ubuntu-dev-tools qemu-user-static binfmt-support
+```bash
+apt-get install sudo gnupg dirmngr curl sbuild ubuntu-dev-tools qemu-user-static binfmt-support
+```
 
 2. Recommended to work under user with full `sudo` access without password prompting.
 
 `sudo` needed to install packages and mount chroot, requrement by mk-sbuild.
 
 You can ignore second line if want every time write password when it asked.
-
-    useradd -m -s /bin/bash -G sudo,sbuild builder
-    echo "builder ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+```bash
+useradd -m -s /bin/bash -G sudo,sbuild builder
+echo "builder ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+```
 
 3. Login as builder user and set release variable which we will build chroot for
-
-    su - builder
-    export RELEASE="stretch"
+```bash
+su - builder
+export RELEASE="stretch"
+```
 
 #### Creating keyring for raspbian archive used by debootstrap
-
-    curl -sL http://archive.raspbian.org/raspbian.public.key | gpg --import -
-    gpg --export 9165938D90FDDD2E > $HOME/raspbian-archive-keyring.gpg
+```bash
+curl -sL http://archive.raspbian.org/raspbian.public.key | gpg --import -
+gpg --export 9165938D90FDDD2E > $HOME/raspbian-archive-keyring.gpg
+```
 
 #### Write sources file
-
-    cat > $HOME/rpi.sources <<EOF
-    deb http://archive.raspbian.org/raspbian/ RELEASE main contrib non-free rpi
-    deb-src http://archive.raspbian.org/raspbian/ RELEASE main contrib non-free rpi
-    EOF
+```bash
+cat > $HOME/rpi.sources <<EOF
+deb http://archive.raspbian.org/raspbian/ RELEASE main contrib non-free rpi
+deb-src http://archive.raspbian.org/raspbian/ RELEASE main contrib non-free rpi
+EOF
+```
 
 #### Set-up mk-sbuild
-
-    cat > $HOME/.mk-sbuild.rc <<EOF
-    SOURCE_CHROOTS_DIR="$HOME/chroots"
-    DEBOOTSTRAP_KEYRING="$HOME/raspbian-archive-keyring.gpg"
-    TEMPLATE_SOURCES="$HOME/rpi.sources"
-    SKIP_UPDATES="1"
-    SKIP_PROPOSED="1"
-    SKIP_SECURITY="1"
-    EATMYDATA="1"
-    EOF
+```bash
+cat > $HOME/.mk-sbuild.rc <<EOF
+SOURCE_CHROOTS_DIR="$HOME/chroots"
+DEBOOTSTRAP_KEYRING="$HOME/raspbian-archive-keyring.gpg"
+TEMPLATE_SOURCES="$HOME/rpi.sources"
+SKIP_UPDATES="1"
+SKIP_PROPOSED="1"
+SKIP_SECURITY="1"
+EATMYDATA="1"
+EOF
+```
 
 #### Create chroot and configure
-
-    mk-sbuild --name $RELEASE-rpi --arch=armhf --debootstrap-mirror=http://archive.raspbian.org/raspbian/ $RELEASE
+```bash
+mk-sbuild --name $RELEASE-rpi --arch=armhf --debootstrap-mirror=http://archive.raspbian.org/raspbian/ $RELEASE
+```
 
 #### Build package
-
-    sbuild --arch=armhf -c $RELEASE-rpi-armhf -d $RELEASE <package>_<version>.dsc
-
+```bash
+sbuild --arch=armhf -c $RELEASE-rpi-armhf -d $RELEASE <package>_<version>.dsc
+```
 or later you can use it without defining $RELEASE
-
-    sbuild --arch=armhf -c stretch-rpi-armhf -d stretch <package>_<version>.dsc
+```bash
+sbuild --arch=armhf -c stretch-rpi-armhf -d stretch <package>_<version>.dsc
+```
