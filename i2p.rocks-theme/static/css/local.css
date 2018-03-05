@@ -44,20 +44,37 @@ article header a:hover {
     text-decoration: underline;
 }
 
-.codehilite {
+.highlight {
     background-image: url('../../theme/images/code_grain.png');
     margin: 1em;
     padding: 1em;
     border-radius: 5px;
     box-shadow: 0px 0px 5px black;
     width: 100%;
-    overflow: scroll;
+    background-color: #474949;
 }
 
 pre {
+    background-color: unset;
     white-space: pre;
+    color: #eee;
+    border: 0px;
 }
 
 ul {
     color: #333;
+}
+
+code {
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    break-after: avoid-column;
+    margin: 0 0;
+    line-height: 1;
 }

@@ -13,53 +13,52 @@ Used documents and topics:
 * https://gist.github.com/waja/7639011
 
 #### Install requirements, add user, set distribution, etc. to build chroot and package
-If you already done steps 1 and 2 before, go to step 3.
 
-1. Install required packages
+Install required packages
 
-    ```bash
-    apt-get install sudo gnupg dirmngr curl sbuild ubuntu-dev-tools qemu-user-static binfmt-support
-    ```
+    :::bash
+    $ sudo apt-get install sudo gnupg dirmngr curl sbuild ubuntu-dev-tools qemu-user-static binfmt-support
 
-2. Recommended to work under user with full `sudo` access without password prompting.
 
-    - `sudo` needed to install packages and mount chroot, requrement of `mk-sbuild`.
-    - You can ignore second line if want every time write password when it asked.
+Recommended to work under user with full `sudo` access without password prompting.
 
-    ```bash
-    useradd -m -s /bin/bash -G sudo,sbuild builder
-    echo "builder ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-    ```
+`sudo` needed to install packages and mount chroot, requrement of `mk-sbuild`.
+You can ignore second line if want every time write password when it asked.
 
-3. Login as *builder* user and set release variable which we will build chroot for
+    :::bash
+    $ sudo useradd -m -s /bin/bash -G sudo,sbuild builder
+    $ sudo bash -c 'echo "builder ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers'
 
-    ```bash
-    su - builder
-    export RELEASE="stretch"
-    ```
 
-    ***Next 4 steps (till 8th) can be skipped if you already own needed environment***
+Login as *builder* user and set release variable which we will build chroot for
 
-4. Creating keyring for *raspbian* archive used by `debootstrap`
+    :::bash
+    $ sudo su - builder
+    $ export RELEASE="stretch"
 
-    ```bash
-    curl -sL http://archive.raspbian.org/raspbian.public.key | gpg --import -
-    gpg --export 9165938D90FDDD2E > $HOME/raspbian-archive-keyring.gpg
-    ```
 
-5. Write sources.list template
+***Next 4 steps (till 8th) can be skipped if you already own needed environment***
 
-    ```bash
-    cat > $HOME/rpi.sources <<EOF
+Creating keyring for *raspbian* archive used by `debootstrap`
+
+    :::bash
+    $ curl -sL http://archive.raspbian.org/raspbian.public.key | gpg --import -
+    $ gpg --export 9165938D90FDDD2E > $HOME/raspbian-archive-keyring.gpg
+
+
+Write sources.list template
+
+    :::bash
+    $ cat > $HOME/rpi.sources <<EOF
     deb http://archive.raspbian.org/raspbian/ RELEASE main contrib non-free rpi
     deb-src http://archive.raspbian.org/raspbian/ RELEASE main contrib non-free rpi
     EOF
-    ```
 
-6. Set-up `mk-sbuild`
 
-    ```bash
-    cat > $HOME/.mk-sbuild.rc <<EOF
+Set-up `mk-sbuild`
+
+    :::bash
+    $ cat > $HOME/.mk-sbuild.rc <<EOF
     SOURCE_CHROOTS_DIR="$HOME/chroots"
     DEBOOTSTRAP_KEYRING="$HOME/raspbian-archive-keyring.gpg"
     TEMPLATE_SOURCES="$HOME/rpi.sources"
@@ -68,24 +67,20 @@ If you already done steps 1 and 2 before, go to step 3.
     SKIP_SECURITY="1"
     EATMYDATA="1"
     EOF
-    ```
 
-7. Create chroot and configure
 
-    ```bash
-    mk-sbuild --name $RELEASE-rpi --arch=armhf --debootstrap-mirror=http://archive.raspbian.org/raspbian/ $RELEASE
-    # debian stretch+ (>= 9) workaround about supported chroot filesystems
-    sudo sed -i 's/union-type=aufs/union-type=overlay/g' /etc/schroot/chroot.d/sbuild-$RELEASE-rpi-armhf
-    ```
+Create chroot and configure
 
-8. Build package
+    :::bash
+    $ mk-sbuild --name $RELEASE-rpi --arch=armhf --debootstrap-mirror=http://archive.raspbian.org/raspbian/ $RELEASE
+    $ sudo sed -i 's/union-type=aufs/union-type=overlay/g' /etc/schroot/chroot.d/sbuild-$RELEASE-rpi-armhf
 
-    ```bash
-    sbuild --arch=armhf -c $RELEASE-rpi-armhf -d $RELEASE <package>.dsc
-    ```
-	
-    or later you can use it without defining $RELEASE
-	
-    ```bash
-    sbuild --arch=armhf -c stretch-rpi-armhf -d stretch <package>.dsc
-    ```
+Build package
+
+    :::bash
+    $ sbuild --arch=armhf -c $RELEASE-rpi-armhf -d $RELEASE <package>.dsc
+
+Later you can use it without defining `$RELEASE`
+
+    :::bash
+    $ sbuild --arch=armhf -c stretch-rpi-armhf -d stretch <package>.dsc
