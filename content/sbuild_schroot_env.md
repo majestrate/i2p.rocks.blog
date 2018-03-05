@@ -17,7 +17,7 @@ Used documents and topics:
 Install required packages
 
     :::bash
-    $ sudo apt-get install sudo gnupg dirmngr curl sbuild ubuntu-dev-tools qemu-user-static binfmt-support
+    $ apt-get install sudo gnupg dirmngr curl sbuild ubuntu-dev-tools qemu-user-static binfmt-support
 
 
 Recommended to work under user with full `sudo` access without password prompting.
