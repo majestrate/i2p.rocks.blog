@@ -38,10 +38,12 @@ Once that's all set up, log into the droplet as root.
 
 Get the build dependancies:
 
+    :::bash
     % apt-get install build-essential git wget postgresql nginx certbot sudo
     
 install elixir, the one in debian stretch is too old:
 
+    :::bash
     % wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
     % dpkg -i erlang-solutions_1.0_all.deb
     % apt-get update
@@ -50,57 +52,70 @@ install elixir, the one in debian stretch is too old:
 
 Add a new user called pleroma:
 
+    :::bash
     % useradd pleroma
     % mkdir /home/pleroma && chown pleroma:pleroma /home/pleroma
     
 Switch to that user:
 
+    :::bash
     % su pleroma
     
 Now that you're the pleroma user, clone the pleroma source code:
 
+    :::bash
     $ git clone https://git.pleroma.social/pleroma/pleroma ~/pleroma
     
 now move into the code's directory:
 
+    :::bash
     $ cd ~/pleroma
     
 The following is from the [pleroma readme](https://git.pleroma.social/pleroma/pleroma/blob/develop/README.md)
 
 Get the dependancies for elixir:
 
+    :::bash
     $ mix deps.get
 
 Generate a config, this will ask a few questions:
 
+    :::bash
     $ mix generate_config
 
 Copy the generated config in place:
 
+    :::bash
     $ cp config/generated_config.exs config/prod.secret.exs
     
 Drop back down to root:
 
+    :::bash
     $ exit
 
 Then set up postgres:
 
+    :::bash
     % su -c postgres "psql -f /home/pleroma/pleroma/config/setup_db.psql"
 
 Log back into the pleroma user...
 
+    :::bash
     % su pleroma
     
 go into the pleroma directory:
 
+    :::bash
     $ cd ~/pleroma
     
 and run the database migrations, every time you upgrade the software make sure you run the migrations.
 
+    :::bash
     $ mix ecto.migrate
     
 Check to see if the configs work, run the server in the foreground:
 
+    :::bash
     $ mix phx.server
     
 The server runs on port 4000, you can check to see if it works by going to http://your-doman.tld:4000/api/v1/instance
@@ -108,19 +123,22 @@ The server runs on port 4000, you can check to see if it works by going to http:
 Once that works, interrupt the server with control-c ( `^c` )
 
 quit back to root...
-    
+
+    :::bash    
     $ quit
 
 ... so you can install the init scripts:
 
-    # cp /home/pleroma/pleroma/installation/pleroma.service /etc/systemd/system/ 
-    # systemctl enable pleroma
-    # cp /home/pleroma/pleroma/installation/pleroma.nginx /etc/nginx/sites-enabled/
+    :::bash
+    % cp /home/pleroma/pleroma/installation/pleroma.service /etc/systemd/system/ 
+    % systemctl enable pleroma
+    % cp /home/pleroma/pleroma/installation/pleroma.nginx /etc/nginx/sites-enabled/
 
 edit the `/etc/nginx/sites-enabled/pleroma.nginx` file, replace `example.tld` with your domain.
 
 The config should look similar to this:
 
+    :::bash
     proxy_cache_path /tmp/pleroma-media-cache levels=1:2 keys_zone=pleroma_media_cache:10m max_size=10g
                  inactive=720m use_temp_path=off;
 
@@ -179,15 +197,17 @@ The config should look similar to this:
       
 reload nginx and set up ssl with certbot
 
-    # systemctl reload nginx
-    # mkdir -p /var/lib/letsencrypt/.well-known
-    # certbot certonly --email your@emailaddress --webroot -w /var/lib/letsencrypt/ -d yourdomain
+    :::bash
+    % systemctl reload nginx
+    % mkdir -p /var/lib/letsencrypt/.well-known
+    % certbot certonly --email your@emailaddress --webroot -w /var/lib/letsencrypt/ -d yourdomain
 
 make sure to change "yourdomain" to be the domain you are using and "your@emailaddress" to an email address you check.
 
 reload nginx once more
 
-    # systemctl reload nginx
+    :::bash
+    % systemctl reload nginx
     
 Then go to https://yourdoman.tld/ to verify that it works.
 
