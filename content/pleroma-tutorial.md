@@ -131,7 +131,29 @@ quit back to root...
 
     :::bash
     % cp /home/pleroma/pleroma/installation/pleroma.service /etc/systemd/system/ 
-    % systemctl enable pleroma
+
+
+make sure pleroma.service has in the service section the following entries,
+specifically the two Environmental variables:
+
+    :::bash
+    [Service]
+    User=pleroma
+    WorkingDirectory=/home/pleroma/pleroma
+    Environment="HOME=/home/pleroma"
+    Environment="MIX_ENV=prod"
+    ExecStart=/usr/local/bin/mix phx.server
+    ExecReload=/bin/kill $MAINPID
+    KillMode=process
+    Restart=on-failure
+
+
+enable and start pleroma:
+
+    :::bash
+    % systemctl enable pleroma --now
+
+    :::bash
     % cp /home/pleroma/pleroma/installation/pleroma.nginx /etc/nginx/sites-enabled/
 
 edit the `/etc/nginx/sites-enabled/pleroma.nginx` file, replace `example.tld` with your domain.
