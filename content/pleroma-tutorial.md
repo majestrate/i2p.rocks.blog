@@ -76,12 +76,12 @@ The following is from the [pleroma readme](https://git.pleroma.social/pleroma/pl
 Get the dependancies for elixir:
 
     :::bash
-    $ mix deps.get
+    $ MIX_ENV=prod mix deps.get
 
 Generate a config, this will ask a few questions:
 
     :::bash
-    $ mix generate_config
+    $ MIX_ENV=prod mix generate_config
 
 Copy the generated config in place:
 
@@ -96,7 +96,7 @@ Drop back down to root:
 Then set up postgres:
 
     :::bash
-    % su -c postgres "psql -f /home/pleroma/pleroma/config/setup_db.psql"
+    % sudo su postgres "psql -f /home/pleroma/pleroma/config/setup_db.psql"
 
 Log back into the pleroma user...
 
@@ -111,12 +111,12 @@ go into the pleroma directory:
 and run the database migrations, every time you upgrade the software make sure you run the migrations.
 
     :::bash
-    $ mix ecto.migrate
+    $ MIX_ENV=prod mix ecto.migrate
     
 Check to see if the configs work, run the server in the foreground:
 
     :::bash
-    $ mix phx.server
+    $ MIX_ENV=prod mix phx.server
     
 The server runs on port 4000, you can check to see if it works by going to http://your-doman.tld:4000/api/v1/instance
 
