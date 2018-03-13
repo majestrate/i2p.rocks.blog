@@ -47,7 +47,7 @@ install elixir, the one in debian stretch is too old:
     % wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
     % dpkg -i erlang-solutions_1.0_all.deb
     % apt-get update
-    % apt-get install elixir
+    % apt-get install --no-install-recommends elixir esl-erlang
    
 
 Add a new user called pleroma:
