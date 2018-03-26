@@ -200,15 +200,19 @@ The config should look similar to this:
           proxy_set_header Upgrade $http_upgrade;
           proxy_set_header Connection "upgrade";
           proxy_set_header Host $http_host;
-          proxy_pass http://localhost:4000;
+          proxy_pass http://localhost:4000$request_uri;
         }
 
         location /proxy {
           proxy_cache pleroma_media_cache;
           proxy_cache_lock on;
-          proxy_pass http://localhost:4000;
+          proxy_pass http://localhost:4000$request_uri;
         }
 
+        location /.well-known/ {
+            proxy_pass http://localhost:4000$request_uri;
+        }
+    
         location ^~ /.well-known/acme-challenge/ {
           allow all;
           root /var/lib/letsencrypt/;
