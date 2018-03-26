@@ -76,12 +76,12 @@ The following is from the [pleroma readme](https://git.pleroma.social/pleroma/pl
 Get the dependancies for elixir:
 
     :::bash
-    $ MIX_ENV=prod mix deps.get
+    $ mix deps.get
 
 Generate a config, this will ask a few questions:
 
     :::bash
-    $ MIX_ENV=prod mix generate_config
+    $ mix generate_config
 
 Copy the generated config in place:
 
