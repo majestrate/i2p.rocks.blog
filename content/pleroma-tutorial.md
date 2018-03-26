@@ -210,6 +210,7 @@ The config should look similar to this:
         }
 
         location /.well-known/ {
+            proxy_set_header Host $http_host;
             proxy_pass http://localhost:4000$request_uri;
         }
     
