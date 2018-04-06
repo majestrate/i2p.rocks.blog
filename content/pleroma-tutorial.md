@@ -97,7 +97,7 @@ Then set up postgres:
 
     :::bash
     % chmod +x /home/pleroma/pleroma/config/setup_db.psql
-    % sudo su postgres "psql -f /home/pleroma/pleroma/config/setup_db.psql"
+    % su postgres "psql -f /home/pleroma/pleroma/config/setup_db.psql"
 
 Log back into the pleroma user...
 
