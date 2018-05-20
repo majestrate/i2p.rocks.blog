@@ -59,7 +59,7 @@ Add a new user called pleroma:
 Switch to that user:
 
     :::bash
-    % su pleroma
+    % su - pleroma
     
 Now that you're the pleroma user, clone the pleroma source code:
 
@@ -97,12 +97,12 @@ Then set up postgres:
 
     :::bash
     % chmod +x /home/pleroma/pleroma/config/setup_db.psql
-    % su postgres "psql -f /home/pleroma/pleroma/config/setup_db.psql"
+    % su - postgres -c "psql -f /home/pleroma/pleroma/config/setup_db.psql"
 
 Log back into the pleroma user...
 
     :::bash
-    % su pleroma
+    % su - pleroma
     
 go into the pleroma directory:
 
