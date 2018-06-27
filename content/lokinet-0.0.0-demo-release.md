@@ -24,3 +24,6 @@ Current Features:
 If you set up a public relay node please make a PR with the `self.signed` file renamed to `yourname.signed` in `contrib/testnet` directory inside the [testnet repository](https://github.com/majestrate/llarpd-builder). 
 
 In the future bootstrap will be more automated but for now it's totally manual, this is subject to change.
+
+
+Please not, this build is currently NOT sybil resistant.
