@@ -1,4 +1,4 @@
-Date: 2018-07-28
+Date: 2018-06-28
 Tags: i2pd, raspberry pi, arm
 Category: blog
 Title: i2pd 2.19.0 static arm build
