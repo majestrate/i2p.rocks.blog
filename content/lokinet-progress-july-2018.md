@@ -35,3 +35,5 @@ each with their own subtasks.
 
 I'll be leaving for Melborune Australia next week and I'll be there until the end of July, loki project is
 flying me out to synchronize with the rest of the team. We'll see what happens.
+
+I have an IRC channel for dev, #llarp on freenode, join it if you want.
