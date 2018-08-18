@@ -10,6 +10,7 @@ First, what is pleroma?
 
 Pleroma is an OStatus and ActivityPub compatable server, a component of the [fediverse](https://robek.world/featured/what-is-gnu-social-and-is-mastodon-social-a-twitter-clone/) of which GNU Social and Mastodon belong to as well. Think if twitter was structued how email is. With Email you have many different servers, yahoo mail, gmail, aol, (etc) that all can send mail to each other but are owned by different entities, the thing they have in common is they all speak SMTP. OStatus and AcitivityPub are each the "Twitter of SMTP", tweets/toots/shitposts/japanese-moonrunes are exchanged between servers. Many users can be on 1 server, (in fact mastodon.social and pawoo.net have a large chunk of the users) or 1 user can run their own server just for them (which is what I do, sorta).
 
+This guide may be outdated but the [pleroma wiki](https://git.pleroma.social/pleroma/pleroma/wikis/Installing%20on%20Debian%20based%20distributions) should always be up to date.
 
 Things you'll need before getting started:
 
