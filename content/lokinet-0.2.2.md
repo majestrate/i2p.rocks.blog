@@ -15,7 +15,7 @@ The rest of this blog will document the process of compiling from source and set
 
 Install the build dependencies (assuming ubuntu or debian here):
 
-    $ sudo apt install libcap-dev build-essential cmake ninja-build git
+    $ sudo apt install libcap-dev build-essential cmake ninja-build git libtool autoconf
         
     
 Next, check out the lokinet source code, this repo is recursive.
