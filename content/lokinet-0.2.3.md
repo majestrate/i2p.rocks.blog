@@ -1,4 +1,4 @@
-Date: 2018-09-29
+Date: 2018-09-30
 Tags: lokinet
 Category: development
 Title: LokiNET 0.2.3 soooooon ™
