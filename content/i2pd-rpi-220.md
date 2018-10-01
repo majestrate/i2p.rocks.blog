@@ -10,11 +10,16 @@ my unofficial static arm build for i2pd 2.20.0 is up [here](/files/i2pd-rpi/2.20
 
 b2sum:
 
-    68c93b6638f3c71f196bda651a564ea33f5e11196c328d471845f3998419821f0f992f184ad6990f6cda182bfcff6015ce8f93cf5b68a2907db7fe5d6da94e79  i2pd
-    
+    f10bf0c2e913e420125ac392fa9c27f8ccdd16268acec5a1ef7e5b96621e813b05c5361c862e2bfa48e3d3590c7dff127c9676ddc78f7497945f120161ac43be  i2pd
+
 sha256sum:
 
-    3ed75a9d9edef80e14dfdeb89452d1ace2d370e3ee0f4b101105a13706e7c949  i2pd
+    bc5ab06804f076c0b8118e1bf29aef1ba5432bf39440c0b5d696187b87312f84  i2pd
 
     
 the build was compiled with `-Os` and stripped for smaller size, so you may have better speed on systems without speculative execution like the raspberry pi 1.
+
+uses: 
+
+* openssl 1.1.1 
+* boost 1.62.0
