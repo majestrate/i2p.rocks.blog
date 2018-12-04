@@ -12,12 +12,11 @@ Most people know DNS as the protocol that is used to map human readable names to
 using recursive lookups and such, but I see it as something else. 
 If lokinet is to thrive you want to make the transition to it as painless as possible, 
 hence why I chose DNS as the primary mechanism of controlling when to look up things on the network.
-DNS is already used to do almost everything I was trying to do, so why reinvent the wheel?
-That protocol is the one most if not all network aware programs use first when trying to figure out how to connect to something.
+Most if not all network aware programs use DNS first when trying to figure out how to connect to something, excpet if it looks like an IP address. It's far more complex under the hood but from the end user's point of view it's effectively so.
 
 By having lokinet expose IP an DNS only, everything written should trivially work with little or no application porting needed. 
 
-Lokinet's use of DNS can be explained as a forwarding, non caching DNS MiTM proxy that intercepts 2 TLDs, (.loki and .snode)
+My use of DNS in Lokinet can be explained as a forwarding, non caching DNS MiTM proxy that intercepts 2 TLDs, (.loki and .snode)
 It intercepts dns queries and if the TLDs (top layer domain) is NOT loki or snode it will blindly forward any queries it gets 
 to an upstream provider randomly chosen from list configured at runtime 
 (I currently use [dnscrypt proxy](https://dnscrypt.info) as my upstream resolver on my workstation). 
