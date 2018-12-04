@@ -8,8 +8,6 @@ A very large amount of work happened with lokinet development since the last blo
 As of writing, exit traffic works, hidden services work and service node traffic is wired up but untested.
 I also took the liberty of refactoring the dns code used in lokinet. 
 
-Most people know DNS as the protocol that is used to map human readable names to ip addresses on the internet 
-using recursive lookups and such, but I see it as something else. 
 If lokinet is to thrive you want to make the transition to it as painless as possible, 
 hence why I chose DNS as the primary mechanism of controlling when to look up things on the network.
 Most if not all network aware programs use DNS first when trying to figure out how to connect to something, excpet if it looks like an IP address. It's far more complex under the hood but from the end user's point of view it's effectively so.
