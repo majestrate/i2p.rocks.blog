@@ -14,7 +14,7 @@ If lokinet is to thrive you want to make the transition to it as painless as pos
 hence why I chose DNS as the primary mechanism of controlling when to look up things on the network.
 Most if not all network aware programs use DNS first when trying to figure out how to connect to something, excpet if it looks like an IP address. It's far more complex under the hood but from the end user's point of view it's effectively so.
 
-By having lokinet expose IP an DNS only, everything written should trivially work with little or no application porting needed. 
+By having lokinet expose IP and DNS only, everything written should trivially work with little or no application porting needed. 
 
 My use of DNS in Lokinet can be explained as a forwarding, non caching DNS MiTM proxy that intercepts 2 TLDs, (.loki and .snode)
 It intercepts dns queries and if the TLDs (top layer domain) is NOT loki or snode it will blindly forward any queries it gets 
