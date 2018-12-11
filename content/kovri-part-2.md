@@ -1,7 +1,7 @@
 Date: 2018-12-12
 Tags: i2p, i2pd, kovri, llarp
 Category: blog
-Title: I2P-2 cryptographic boogaloo (Kovri and the curious case of code rot part 2) 
+Title: Kovri and the curious case of code rot (part 2)
 Authors: Jeff
 
 Kovri has decided to fork the i2p protocol stack [[1]](https://gitlab.com/kovri-project/kovri/issues/1000). I too have had frustrations
