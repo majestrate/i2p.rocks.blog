@@ -7,15 +7,15 @@ Authors: Jeff
 Before the final post I'll give on this topic, a bit of backstory as I understand it.
 
 During winter of 2015 (or was it 2016? I forget.) orignal the original author of i2pd took a 2 week winter vacation while the codebase 
-was in shambles. During this break some of the contributors of i2pd decicded to hard fork the codebase starting with turning all the tabs 
-to spaces. It is unclear if anonimal was a part of the group or not.
+was in shambles. During this break some of the contributors of i2pd decided to hard fork the codebase starting with turning all the tabs 
+to spaces. It is unclear if Anonimal was a part of the group or not.
 
-When original came back he flipped his living shit and put his new changes that used openssl onto bitbucket and then later merged it
-on github in another branch. This is the historical reason why i2pd uses the `openssl` branch and not `master` as the primary branch.
+When original came back he flipped his living shit and put his new changes that used openssl onto Bitbucket and then later merged it
+on Github in another branch. This is the historical reason why i2pd uses the `openssl` branch and not `master` as the primary branch.
 
-kovri is based off the code base before the openssl branch which is truly godawful, however almost none of it remains in i2pd today.
+Kovri is based off the code base before the openssl branch which is truly godawful, however almost none of it remains in i2pd today.
 
-This morning anonimal put a message on a pastebin directed to `#monero-dev` and I think he does make some good points but fundamentally misses 
+This morning Anonimal put a message on a pastebin directed to `#monero-dev` and I think he does make some good points but fundamentally misses 
 the underlying problem.
 
 He has said a few things specifically his reasoning why the codebase `"is a steaming pile of dog-shit"`
@@ -27,7 +27,7 @@ This part is unclear if it is true as I have no information on this.
 
 > * I've only been able to dedicate ~30% of my time so far to code development because, up until now, no one else was running the project (see my FFS)
 
-The monero fork was made because the code was really bad, it was the fork maintainer's responsiblity to remidy this. Rather, that is what was promised.
+The monero fork was made because the code was really bad, it was the fork maintainer's responsibility to remedy this. Rather, that is what was promised.
 
 > * There was no design planning, no concept of architecture, nothing but stream-of-conscience writing in the code that was forked. A very large, convoluted technology with no planning or even conventional coding standards = recipe for disaster.
 
@@ -50,9 +50,9 @@ I have already done this myself with llarp and I'll warn that such plans never p
 
 > Now, if you want me to hook this pile of crap into Monero, ask yourself why haven't YOU (metaphorical you) done it? Why do you expect ME to be the fall guy, yet again? Why ignore 99% of the critical-problems in favor of solving 1% of non-critical problems?
 
-Why? It's in the job description, you were supposed to fix up kovri and maintain it such that it would be acceptable by monero standards, at least that was the vibe everyone seemed to get. You took on the job, you couldn't do it and now you're blaming other people. Just own up on your mistakes and be honest with everyone and more importantly be honest with yourself, specifically with regards to your ability to maintain a code base. Don't bite off more than you can chew.
+Why? It's in the job description, you were supposed to fix up Kovri and maintain it such that it would be acceptable by Monero standards, at least that was the vibe everyone seemed to get. You took on the job, you couldn't do it and now you're blaming other people. Just own up on your mistakes and be honest with everyone and more importantly be honest with yourself, specifically with regards to your ability to maintain a code base. Don't bite off more than you can chew.
 
-Anonimal, it would be nice to have a chat about how monero can better help anonymize transactions using another layer, but don't you think you've dug yourself a big enough hole? Promising a new and improved layer ontop of existing ones when you couldn't even manage? All by yourself? The realm of higher latency networking which is most definately the future but they lack an end user demographic, adding monero would help that indeed but come back down to earth. One thing I have learned is that you can't do everything yourself. It's not bad to ask for help from others, just get off your high horse and stop blaming others for your own mistakes and miscalculations. I don't hold anything against you as I have been in similar sitatuons, the way out is to be honset about the sitatuon and humble about your capabilities and hope people understand.
+Anonimal, it would be nice to have a chat about how Monero can better help anonymize transactions using another layer, but don't you think you've dug yourself a big enough hole? Promising a new and improved layer ontop of existing ones when you couldn't even manage? All by yourself? The realm of higher latency networking which is most definately the future but they lack an end user demographic, adding monero would help that indeed but come back down to earth. One thing I have learned is that you can't do everything yourself. It's not bad to ask for help from others, just get off your high horse and stop blaming others for your own mistakes and miscalculations. I don't hold anything against you as I have been in similar sitatuons, the way out is to be honset about the sitatuon and humble about your capabilities and hope people understand.
 
 
 Copy of the orignal message from https://paste.debian.net/plain/1058561
