@@ -1,4 +1,4 @@
-Date: 2019-01-05
+Date: 2019-01-04
 Tags: i2p, i2pd, kovri
 Category: blog
 Title: Kovri and the curious case of code rot (part 3)
