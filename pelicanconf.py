@@ -13,7 +13,7 @@ TIMEZONE = 'UTC'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_DOMAIN = SITEURL
+FEED_DOMAIN = SITEURL + "/feeds"
 FEED_MAX_ITEMS = 10
 FEED_ALL_RSS = 'rss.xml'
 FEED_ALL_ATOM = 'atom.xml'
@@ -27,11 +27,12 @@ LINKS = (('I2P', 'https://geti2p.net/'), ('Submit an I2P related blog via Github
 
 SOCIAL = (('GitHub', 'https://github.com/majestrate'),
            ('Twitter', 'https://twitter.com/ampernand'),
-           ('RSS', FEED_DOMAIN + '/' + FEED_ALL_RSS))
+           ('RSS', FEED_DOMAIN + '/' + FEED_ALL_RSS),
+           ('ATOM', FEED_DOMAIN + '/' + FEED_ALL_ATOM))
 # markdown extensions
 MD_EXTENSIONS = ['codehilite(linenums=False,guess_lang=True,use_pygments=True)', 'extra']
 
-MENUITEMS = (('RSS Feed', FEED_DOMAIN + '/' + FEED_ALL_RSS), )
+MENUITEMS = (('RSS Feed', FEED_DOMAIN + '/' + FEED_ALL_RSS), ('Atom Feeed', FEED_DOMAIN + '/feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
 SUMMARY_MAX_LENGTH = 150
@@ -57,7 +58,8 @@ KEYWORDS = [
     "i2p",
     "development",
     "nntpchan",
-    "livechan"
+    "livechan",
+    "llarp"
 ]
 
 # css files in order of include
