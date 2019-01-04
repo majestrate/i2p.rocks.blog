@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jeff'
 SITENAME = u'i2p.rocks -- blog about i2p and other stuff'
-SITEURL = '.'
+SITEURL = '/blog'
 
 PATH = 'content'
 
@@ -13,10 +13,10 @@ TIMEZONE = 'UTC'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_DOMAIN = SITEURL + "/feeds"
-FEED_MAX_ITEMS = 10
+FEED_DOMAIN = SITEURL
+FEED_MAX_ITEMS = 0
 FEED_ALL_RSS = 'rss.xml'
-FEED_ALL_ATOM = 'atom.xml'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -32,7 +32,7 @@ SOCIAL = (('GitHub', 'https://github.com/majestrate'),
 # markdown extensions
 MD_EXTENSIONS = ['codehilite(linenums=False,guess_lang=True,use_pygments=True)', 'extra']
 
-MENUITEMS = (('RSS Feed', FEED_DOMAIN + '/' + FEED_ALL_RSS), ('Atom Feeed', FEED_DOMAIN + '/feeds/all.atom.xml'))
+MENUITEMS = (('RSS Feed', FEED_DOMAIN + '/' + FEED_ALL_RSS), ('Atom Feeed', FEED_DOMAIN + '/' + FEED_ALL_ATOM))
 
 DEFAULT_PAGINATION = 10
 SUMMARY_MAX_LENGTH = 150
