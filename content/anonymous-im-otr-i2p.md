@@ -41,7 +41,7 @@ Configure XMPP client
 
 **Add I2P Socks5 proxy**
 
-![Image]({filename}/images/xmpp-tut/socks-config.png)
+![Image]({static}/images/xmpp-tut/socks-config.png)
 
 Options -&gt; Application -&gt; Proxy settings -&gt; press Edit -&gt; press New -&gt; create proxy "I2P socks", type Socks version 5, Host: 127.0.0.1, port: 4447 -&gt; press Save
 
@@ -49,7 +49,7 @@ Options -&gt; Application -&gt; Proxy settings -&gt; press Edit -&gt; press New 
 
 **Improving privacy**
 
-![Image]({filename}/images/xmpp-tut/client-switch.png)
+![Image]({static}/images/xmpp-tut/client-switch.png)
 
 Options -&gt; Plugins -&gt; select "Client switcher plugin" in dropdown menu -&gt; check "Load this plugin" -&gt; check "For all accounts" -&gt; choose Response mode: not implemented -&gt; check "Deny iq time request" 
 
@@ -58,19 +58,19 @@ Options -&gt; Plugins -&gt; select "Client switcher plugin" in dropdown menu -&g
 Register an account
 -------------------
 
-![Image]({filename}/images/xmpp-tut/reg1.png)
+![Image]({static}/images/xmpp-tut/reg1.png)
 
 Account setup -&gt; Add -&gt; Enter your desired account name, check "Register new account" and press Add
 
-![Image]({filename}/images/xmpp-tut/reg2.png)
+![Image]({static}/images/xmpp-tut/reg2.png)
 
 Fill Server: i2p.rocks -&gt; check "Manually specify Server Host/Port", then fill Host: ynkz7ebfkllljitiodcq52pa7fgqziomz4wa7tv4qiqldghpx4uq.b32.i2p, Port: 5222, select Proxy "I2P Socks". Press Next
 
-![Image]({filename}/images/xmpp-tut/reg3.png)
+![Image]({static}/images/xmpp-tut/reg3.png)
 
 Enter your username and long random password. Press Next.
 
-![Image]({filename}/images/xmpp-tut/config-account.png)
+![Image]({static}/images/xmpp-tut/config-account.png)
 
 Open Account Properties, Misc and set your resourse name "Manual" and enter some random string, like "null". Set STUN/TURN to "don't use".
 
@@ -81,7 +81,7 @@ You have successfully registered and set up your account.
 Create OTR private key
 ----------------------
 
-![Image]({filename}/images/xmpp-tut/otr-generate.png)
+![Image]({static}/images/xmpp-tut/otr-generate.png)
 
 Options -&gt; Plugins -&gt; select "Off-the-Record Messaging Plugin" -&gt; check "Load this plugin" -&gt; "My private keys" tab -&gt; select your account and press "Generate new key".
 
@@ -90,9 +90,9 @@ Options -&gt; Plugins -&gt; select "Off-the-Record Messaging Plugin" -&gt; check
 Using OTR encryption
 --------------------
 
-![Image]({filename}/images/xmpp-tut/verify-fingerprints.png)
+![Image]({static}/images/xmpp-tut/verify-fingerprints.png)
 
-![Image]({filename}/images/xmpp-tut/finally-secure.png)
+![Image]({static}/images/xmpp-tut/finally-secure.png)
 
 Later on, you will add new contacts and authenticate them with fingerprint verification. OTR button is a little lock in chat window, just above text input field.
 

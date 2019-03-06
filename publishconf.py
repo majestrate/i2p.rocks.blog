@@ -14,7 +14,7 @@ SITEURL = 'http://i2p.rocks/blog'
 RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 

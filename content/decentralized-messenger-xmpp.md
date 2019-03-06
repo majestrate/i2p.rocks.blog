@@ -4,7 +4,7 @@ Category: blog
 Title: New life for XMPP. Build your own decentralized messenger!
 Authors: Darknet Villain
 
-![img]({filename}/images/decentralized-messenger-xmpp/xmpp-1.jpeg)
+![img]({static}/images/decentralized-messenger-xmpp/xmpp-1.jpeg)
 
 The idea of building decentralized messenger run by users, not corporations, is not new. But the process of building it costs a lot of money and takes a lot of time. But what if we take the old good [XMPP protocol](https://en.wikipedia.org/wiki/XMPP), which has everything already implemented for us?
 
@@ -41,7 +41,7 @@ After installation is completed, create a server I2P tunnel. It will provide us 
 
 If you plan to use messenger only on a local host, prosody-c2s section may be omitted. Restart i2pd to apply new settings and look at webconsole http://127.0.0.1:7070/ page `I2P tunnels` for a new I2P address:
 
-![img]({filename}/images/decentralized-messenger-xmpp/xmpp-2.png)
+![img]({static}/images/decentralized-messenger-xmpp/xmpp-2.png)
 
 Save this xxx.b32.i2p address, it will be a domain name of your XMPP server.
 
@@ -99,15 +99,15 @@ Adding admin account:
 
 Now configure your XMPP client (for example, [Pidgin](https://pidgin.im)). 
 
-![img]({filename}/images/decentralized-messenger-xmpp/xmpp-3.png)
+![img]({static}/images/decentralized-messenger-xmpp/xmpp-3.png)
 
 If you are connecting to a localhost, specify custom server address 127.0.0.1 port 5222.
 
-![img]({filename}/images/decentralized-messenger-xmpp/xmpp-4.png)
+![img]({static}/images/decentralized-messenger-xmpp/xmpp-4.png)
 
 If you are connecting to a server remotely via I2P, specify a Socks5 proxy server 127.0.0.1:4447. 
 
-![img]({filename}/images/decentralized-messenger-xmpp/xmpp-5.png)
+![img]({static}/images/decentralized-messenger-xmpp/xmpp-5.png)
 
 If everything is configured correctly, you will be able add other users of I2P federation to your contacts and chat with them. 
 

@@ -28,7 +28,7 @@ So we got 1 task, implementing hidden services, that turns out to be 4 features 
 even half way in @_@. So, once publishing and fetching introduction sets is done, we need to build messages
 to send, this is before implementing the Hidden Service data messages (called i2cp message from i2p).
 
-![HELP! I NEED AN ADULT!]({filename}/images/lokinet-july-2018/mfw.png "HELP! I NEED AN ADULT!")
+![HELP! I NEED AN ADULT!]({static}/images/lokinet-july-2018/mfw.png "HELP! I NEED AN ADULT!")
 
 A simple sounding goal like "implementing hidden services" can often expand really fast into many tasks
 each with their own subtasks.
