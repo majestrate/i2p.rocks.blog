@@ -42,6 +42,7 @@ all: ssh_upload
 
 $(V):
 	python3 -m venv $(V)
+	$(V)/bin/pip install -r requirements.txt
 
 html: $(V)
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
