@@ -26,7 +26,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (('I2P', 'https://geti2p.net/'), ('Submit an I2P related blog via Github','https://github.com/majestrate/i2p.rocks.blog/'))
 
 SOCIAL = (('GitHub', 'https://github.com/majestrate'),
-           ('Twitter', 'https://twitter.com/ampernand'),
+           ('Twitter', 'https://twitter.com/uguu25519'),
            ('RSS', FEED_DOMAIN + '/' + FEED_ALL_RSS),
            ('ATOM', FEED_DOMAIN + '/' + FEED_ALL_ATOM))
 # markdown extensions
