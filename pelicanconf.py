@@ -47,6 +47,7 @@ PLUGINS_PATHS = []
 
 # plugins in use
 PLUGINS = [
+    'minify'
 ]
 
 # theme name
