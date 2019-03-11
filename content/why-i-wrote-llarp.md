@@ -7,7 +7,7 @@ Authors: Jeff
 
 Recently I happened across a [bitcoin talk thread](https://bitcointalk.org/index.php?topic=753252.msg49713342#msg49713342) while peeking at my blog's http access log at a time when I should've been doing work instead.
 
-I'll probably take this chance to make it very clear what llarp/lokinet is and is not.
+I'll probably take this chance to make it very clear what llarp/lokinet is and is not and why it even exists in the first place.
 
 I can say that, in my opinion, llarp/lokinet is `attempting to be a protocol to replace i2p`.
 
