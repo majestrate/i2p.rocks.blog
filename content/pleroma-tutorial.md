@@ -4,6 +4,9 @@ Category: blog
 Title: The magical world of Pleroma, setting up your instance.
 Authors: jeff
 
+
+# This guide is out of date, use [the official docs](https://docs-develop.pleroma.social/readme.html).
+
 This little blog post will guide a user through installing pleroma on a "$3 instance" as suggested by lain.
 
 First, what is pleroma?
