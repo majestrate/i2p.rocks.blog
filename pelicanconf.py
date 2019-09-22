@@ -23,7 +23,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('I2P', 'https://geti2p.net/'), ('Submit an I2P related blog via Github','https://github.com/majestrate/i2p.rocks.blog/'))
+LINKS = (( 'Lokinet', 'https://lokinet.org/'),( 'I2P', 'https://geti2p.net/'), ('Submit an I2P related blog via Github','https://github.com/majestrate/i2p.rocks.blog/'))
 
 SOCIAL = (('GitHub', 'https://github.com/majestrate'),
           ('Fediverse', 'https://social.i2p.rocks/jeff'),
@@ -61,7 +61,8 @@ KEYWORDS = [
     "development",
     "nntpchan",
     "livechan",
-    "llarp"
+    "llarp",
+    "lokinet"
 ]
 
 # css files in order of include
