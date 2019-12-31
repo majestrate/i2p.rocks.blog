@@ -43,6 +43,10 @@ sudo apt install lokinet
 Once lokinet is installed it should be running in the background. The lokinet apt packages on ubuntu and debian automatically
 set up the required DNS settings for accessing SNApps.
 
-If everything went okay you should be able to load the [Lokinet Wiki](http://icxqqcpd3sfkjbqifn53h7rmusqa1fyxwqyfrrcgkd37xcikwa7y.loki/wiki/index.php?title=Main_Page) which only is accessable with Lokinet. Make sure to check out and possibly add to the list of community run services [here](http://icxqqcpd3sfkjbqifn53h7rmusqa1fyxwqyfrrcgkd37xcikwa7y.loki/wiki/index.php?title=Community_services).
+### SNApps
 
-For help or idle chatter you can open an IRC client up and join our internal IRC network [here](irc://icxqqcpd3sfkjbqifn53h7rmusqa1fyxwqyfrrcgkd37xcikwa7y.loki/lokinet), play nice, have fun and don't forget that everyone is in a very diverse set of timezones so people may be quiet.
+* [wiki](http://wikicymsw5cy1h367oo9wwxuhp7igcrxcugy6kn4h5kgdzmq8qho.loki/)
+* [demo livestreaming setup](http://stream.wikicymsw5cy1h367oo9wwxuhp7igcrxcugy6kn4h5kgdzmq8qho.loki/)
+* [this blog](http://djrf9ge8xyb17ycmw88xkjcz736as19t5m5e7e7z9yyuwmm9413o.loki/blog/)
+
+For help or idle chatter you can open an IRC client up and join our internal IRC network [here](irc://wikicymsw5cy1h367oo9wwxuhp7igcrxcugy6kn4h5kgdzmq8qho.loki/lokinet), play nice, have fun and don't forget that everyone is in a very diverse set of timezones so people may be quiet.
