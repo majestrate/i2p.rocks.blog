@@ -45,8 +45,6 @@ set up the required DNS settings for accessing SNApps.
 
 ### SNApps
 
-* [wiki](http://wikicymsw5cy1h367oo9wwxuhp7igcrxcugy6kn4h5kgdzmq8qho.loki/)
-* [demo livestreaming setup](http://stream.wikicymsw5cy1h367oo9wwxuhp7igcrxcugy6kn4h5kgdzmq8qho.loki/)
-* [this blog](http://djrf9ge8xyb17ycmw88xkjcz736as19t5m5e7e7z9yyuwmm9413o.loki/blog/)
+* [wiki](http://dw68y1xhptqbhcm5s8aaaip6dbopykagig5q5u1za4c7pzxto77y.loki/wiki/)
 
-For help or idle chatter you can open an IRC client up and join our internal IRC network [here](irc://wikicymsw5cy1h367oo9wwxuhp7igcrxcugy6kn4h5kgdzmq8qho.loki/lokinet), play nice, have fun and don't forget that everyone is in a very diverse set of timezones so people may be quiet.
+For help or idle chatter you can open an IRC client up and join our internal IRC network [here](irc://dw68y1xhptqbhcm5s8aaaip6dbopykagig5q5u1za4c7pzxto77y.loki/lokinet), play nice, have fun and don't forget that everyone is in a very diverse set of timezones so people may be quiet.
