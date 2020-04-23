@@ -17,7 +17,7 @@ FTP_TARGET_DIR=
 
 SSH_HOST=i2p.rocks
 SSH_PORT=22
-SSH_USER=root
+SSH_USER=jeff
 SSH_TARGET_DIR=/var/www/html/blog/
 
 # change this to the path to your ipns private key
