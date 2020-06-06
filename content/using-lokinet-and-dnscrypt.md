@@ -25,12 +25,9 @@ always forward dns for `.loki` and `.snode` to lokinet.
 
 In `/etc/dnscrypt-proxy/dnscrypt-proxy.toml` you want to add an option to provide a fowarding file:
 
-
-
     forwarding_rules = '/etc/dnscrypt-proxy/forwarding-rules.txt'
 
 In a new file at `/etc/dnscrypt-proxy/forwarding-rules.txt'`put the following forwarding rules:
-
 
     loki 127.3.2.1
     snode 127.3.2.1
@@ -44,3 +41,5 @@ The second rule says to forward the `.snode` gtld to lokinet dns
 The third rule is for reverse dns for `10.0.0.0/16` ip range so you can resolve the .loki address from the range owned by lokinet.
 
 If you do not use `10.0.0.0/16` for lokinet's ephemeral IP range change the third rule to match the range you use.
+
+Finally you want to set your primary dns resolver to use `127.0.2.1` (not `127.3.2.1` that is lokinet dns)
