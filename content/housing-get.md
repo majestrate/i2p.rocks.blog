@@ -6,6 +6,6 @@ Authors: Jeff
 
 I am all packed and am about to move.
 
-[!boxes](images/bigmove/boxes.jpeg)
+![boxes](images/bigmove/boxes.jpeg)
 
 YAY.
