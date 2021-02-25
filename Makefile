@@ -38,7 +38,7 @@ ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
 endif
 
-all: ssh_upload
+all: rsync_upload
 
 $(V):
 	python3 -m venv $(V)
