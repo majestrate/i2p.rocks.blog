@@ -8,6 +8,6 @@ I ordered 50 bux of toilet paper off of amazon and I got...
 
 ![thas a lotta paper](images/tp.jpeg)
 
-50 bux worth of it. 4 x 3 x 6 rolls. That's a LOT.
+50 bux worth of it. 4 x 3 x 5 rolls. That's a LOT.
 
 A LOT.
