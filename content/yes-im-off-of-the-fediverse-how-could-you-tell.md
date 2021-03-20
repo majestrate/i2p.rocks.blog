@@ -9,3 +9,7 @@ I used the fediverse to shitpost, meme and in general vent my internal monolouge
 I have used the fediverse since around 2017-ish I am not some new admin idiot that just set this up I've been around the block. It's not just "left wing cancel culture" or "right wing shitwad cabals", it's more. There used to be a very visible network that has now been completely polarized into "us" and "them" (depending on what paranoid delusions you subscribe to) and dropping the server has been on my todo list since late 2020 anyways. The fediverse does reflect the political schism very well. I don't have the time or patience to wade through layers and layers of shit to find the content that I used to see regularrly.
 
 `sudo -Hu pleroma MIX_ENV=prod mix pleroma.user rm jeff # kthnxbai` 
+
+![gigachad.jpeg](images/gigachad.jpeg)
+
+why yes I left how could you tell?
