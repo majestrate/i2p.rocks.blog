@@ -10,6 +10,3 @@ I have used the fediverse since around 2017-ish I am not some new admin idiot th
 
 `sudo -Hu pleroma MIX_ENV=prod mix pleroma.user rm jeff # kthnxbai` 
 
-![gigachad.jpeg](images/gigachad.jpeg)
-
-why yes I left how could you tell?
