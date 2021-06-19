@@ -14,3 +14,5 @@ Regardless of intent or application functionality, This undeniably, is not okay.
 This app does not have a launcher icon. To uninstall this app on android, go to `settings -> applications` and list all the applications, scroll down until you find it, tap the app's icon, tap `force stop` and then tap `uninstall`. If this event bothers you consider leaving a review on the application on gplay with a rating you think it deserves: [here](https://play.google.com/store/apps/details?id=gov.ma.covid19.exposurenotifications.v3).
 
 ![knowing your exact location at all times is a public health issue and totally cannot be abused for monetary gain](/blog/images/mass-spyware.jpg)
+
+The fundmanetal problem here is you can just not do business with google, that choice isn't there with the government. Also, the local government wants to know your exact location at all times, you know, for public safety reasons, nothing else. Don't worry about the possible 3rd party abuses that may occur by collecting such information. What could possibly go wrong?! *cough* china.
