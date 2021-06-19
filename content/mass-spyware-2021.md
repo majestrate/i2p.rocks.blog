@@ -13,7 +13,7 @@ Regardless of intent or application functionality, This undeniably, is not okay.
 
 This app does not have a launcher icon. To uninstall this app on android, go to `settings -> applications` and list all the applications, scroll down until you find it, tap the app's icon, tap `force stop` and then tap `uninstall`.
 
-**Update**  This application cannot be permanently removed as it will re-install itself onto your device every time you uninstall it.
+**Update**  This application cannot be permanently removed as it will re-install itself onto your device every time you uninstall it. This application is akin to persistent malware by my definitions and I will be researching it's internals in order to determine how to properly migitgate it via my local network filtration. This is not acceptable.
 
 If this event bothers you consider leaving a review on the application on gplay with a rating you think it deserves: [here](https://play.google.com/store/apps/details?id=gov.ma.covid19.exposurenotifications.v3).
 
