@@ -11,7 +11,7 @@ The scope of what this propriety application does is still not verified.
 Regardless of intent or application functionality, This undeniably, is not okay. A government installing a software without notice or consent onto their population's devices is not something a healthy functioning democracy does, it's what a psychotic paranoid despot does. If the Mass Gov truly wants to minimize harm this is the opposite of what needs to be done. All this will do is drive conspiracy theories and deepen a very legitimate mistrust in the institutions that plague the USA (which helped give rise to people like donald trump).
 
 
-~~This app does not have a launcher icon. To uninstall this app on android, go to `settings -> applications` and list all the applications, scroll down until you find it, tap the app's icon, tap `force stop` and then tap `uninstall`.~~
+This app does not have a launcher icon. To uninstall this app on android, go to `settings -> applications` and list all the applications, scroll down until you find it, tap the app's icon, tap `force stop` and then tap `uninstall`.
 
 **Update**  This application cannot be permanently removed as it will re-install itself onto your device every time you uninstall it.
 
