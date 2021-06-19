@@ -1,5 +1,5 @@
 Date: 2021-06-19
-Tags: psa, spyware, massachussets, government
+Tags: psa, spyware, massachussetts, government
 Category: blog
 Title: The MA local government just installed spyware on your device.
 Authors: Jeff
