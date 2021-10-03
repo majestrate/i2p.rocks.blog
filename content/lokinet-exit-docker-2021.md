@@ -12,15 +12,14 @@ This is a super abridged guide on setting up a lokinet exit node inside docker.
 docker using apt:
 
 ```
-apt install docker docker-compose wget
+$ sudo apt install docker docker-compose wget
 ```
 
 get the files needed and set up the exit:
 
 ```
 mkdir -p /usr/local/exit
-cd /usr/local/exit
-wget https://gist.github.com/majestrate/7f6933a0c72559537b1614a5e4db8c54/raw/207ca9d76e5af4a1f986e6f4690b5c546c18f493/docker-compose.yml
+wget https://gist.github.com/majestrate/7f6933a0c72559537b1614a5e4db8c54/raw/207ca9d76e5af4a1f986e6f4690b5c546c18f493/docker-compose.yml -O /usr/local/exit/docker-compose.yml
 ```
 
 ## turn it on
@@ -28,13 +27,13 @@ wget https://gist.github.com/majestrate/7f6933a0c72559537b1614a5e4db8c54/raw/207
 put the exit node up:
 
 ```
-docker-compose up -d
+cd /usr/local/exit && docker-compose up -d
 ```
 
 now get the exit node's `.loki` address:
 
 ```
-docker-compose exec lokinet print-lokinet-address.sh
+cd /usr/local/exit && docker-compose exec lokinet print-lokinet-address.sh
 ```
 
 ## client usage
