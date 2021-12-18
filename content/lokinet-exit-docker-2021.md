@@ -19,7 +19,7 @@ grab the `docker-compose.yml`
 
 ```sh
 $ mkdir -p /usr/local/exit/
-$ wget https://github.com/majestrate/lokinet-exit-provider/raw/master/docker-compose.yml -O /usr/local/exit/docker-compose.yml
+$ wget https://github.com/oxen-io/oxen-docker/raw/main/lokinet/docker-compose.yml -O /usr/local/exit/docker-compose.yml
 ```
 
 ## turn it on
