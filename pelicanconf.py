@@ -23,7 +23,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (( 'Lokinet', 'https://lokinet.org/'),( 'I2P', 'https://geti2p.net/'), ('Submit an I2P related blog via Github','https://github.com/majestrate/i2p.rocks.blog/'))
+LINKS = (( 'Lokinet', 'https://lokinet.io/'),( 'I2P', 'https://geti2p.net/'), ('Submit an I2P related blog via Github','https://github.com/majestrate/i2p.rocks.blog/'))
 
 SOCIAL = (('GitHub', 'https://github.com/majestrate'),
            ('RSS', FEED_DOMAIN + '/' + FEED_ALL_RSS),
@@ -57,8 +57,6 @@ KEYWORDS = [
     "i2pd",
     "i2p",
     "development",
-    "nntpchan",
-    "livechan",
     "llarp",
     "lokinet"
 ]
