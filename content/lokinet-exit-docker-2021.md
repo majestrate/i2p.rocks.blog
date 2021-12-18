@@ -54,3 +54,7 @@ $ cd /usr/local/exit && docker-compose pull && docker-compose restart
 ## OH GOD OH FUCK OH GOD
 
 your exit is ready, enjoy the packets.
+
+## Custom Images
+
+see our docker image source repo for more: [here](https://github.com/oxen-io/oxen-docker/tree/main/lokinet)
