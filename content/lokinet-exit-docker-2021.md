@@ -1,6 +1,6 @@
 Date: 2021-10-02
 Tags: lokinet, exit, vpn, docker
-Category: blog
+Category: lokinet
 Title: Hosting a Lokinet Exit - A Guide for the Lazy
 Authors: jeff
 

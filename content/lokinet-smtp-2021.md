@@ -1,6 +1,6 @@
 Date: 2021-05-02
 Tags: smtp, mx, lokinet, email, anonymous email
-Category: blog
+Category: lokinet
 Title: Opportunistic SMTP over Lokinet: it could work...
 Authors: jeff
 
