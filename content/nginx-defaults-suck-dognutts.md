@@ -14,7 +14,9 @@ I run an [open bittorrent tracker](https://opentracker.i2p.rocks) that tracks so
 
 a few days ago i noticed that the box i was running this massive open tracker on was dogpiling and had a backlog of over 1K connections in the workers in the writing state. after putting `nginx performance tuning` into the web search, i came to the realization that you are actually supposed to tune nginx for production enviroments because the defaults are so .... low end? you could probably run nginx on a netbsd lemon so i guess that's fine.
 
-by default nginx processes 1 connection per worker. yea, really. To ammend this, set `mulit_accept` in the `events` block of tyour nginx config to be `on` as god intended. while i was in the config, i also made other numbers go up:
+by default nginx processes 1 connection per worker. 
+
+to ammend this, set `mulit_accept` in the `events` block of your nginx config to be `on` as god intended. while i was in the config, i also made other numbers go up:
 
 
 ```nginx
@@ -40,9 +42,7 @@ as a result, munin graphs showed that indeed number go up as a result of using n
 you can see were the tuning occured pretty clearly.
 
 ![request rate go up](/blog/images/nginx/munin-ngx-req.png)
-
 ![connection count go up](/blog/images/nginx/munin-ngx-con.png)
 
 ![peer count go up](/blog/images/nginx/munin-bt-peers.png)
-
 ![packet rate go up](/blog/images/nginx/munin-net-if.png)
