@@ -23,13 +23,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (( 'Lokinet', 'https://lokinet.io/'),( 'I2P', 'https://geti2p.net/'), ('Submit an I2P related blog via Github','https://github.com/majestrate/i2p.rocks.blog/'))
+LINKS = (( 'Lokinet', 'https://lokinet.io/'),( 'I2P', 'https://i2pd.website'), ('Submit an I2P related blog via Github','https://github.com/majestrate/i2p.rocks.blog/'))
 
 SOCIAL = (('GitHub', 'https://github.com/majestrate'),
            ('RSS', FEED_DOMAIN + '/' + FEED_ALL_RSS),
            ('ATOM', FEED_DOMAIN + '/' + FEED_ALL_ATOM))
 # markdown extensions
-MD_EXTENSIONS = ['codehilite(linenums=False,guess_lang=True,use_pygments=True)', 'extra']
+#MD_EXTENSIONS = ['codehilite(linenums=False,guess_lang=True,use_pygments=True)', 'extra']
+MD_EXTENSIONS = ['codehilite(css_class=codehilite code)', "extra"]
 
 MENUITEMS = (('RSS Feed', FEED_DOMAIN + '/' + FEED_ALL_RSS), ('Atom Feed', FEED_DOMAIN + '/' + FEED_ALL_ATOM))
 
@@ -50,7 +51,7 @@ PLUGINS = [
 ]
 
 # theme name
-THEME = 'i2p.rocks-theme'
+THEME = 'current-theme'
 
 # keywords for meta tag
 KEYWORDS = [
