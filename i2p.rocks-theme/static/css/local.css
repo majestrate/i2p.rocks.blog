@@ -26,10 +26,12 @@
     background-image: url('../../theme/images/grain.png');
 }
 
+/*
 article {
     margin-bottom: 3em;
     padding: 1em;
 }
+*/
 
 article header {
     margin-bottom: 2em;

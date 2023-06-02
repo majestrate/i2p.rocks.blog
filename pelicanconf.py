@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jeff'
 SITENAME = u'i2p.rocks -- blog about i2p and other stuff'
-SITEURL = '/blog'
+SITEURL = 'https://i2p.rocks/blog'
 
 PATH = 'content'
 
@@ -33,11 +33,11 @@ MD_EXTENSIONS = ['codehilite(linenums=False,guess_lang=True,use_pygments=True)',
 
 MENUITEMS = (('RSS Feed', FEED_DOMAIN + '/' + FEED_ALL_RSS), ('Atom Feed', FEED_DOMAIN + '/' + FEED_ALL_ATOM))
 
-DEFAULT_PAGINATION = 10
-SUMMARY_MAX_LENGTH = 150
+DEFAULT_PAGINATION = 3
+SUMMARY_MAX_LENGTH = 50
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 # begin custom configuration
 
