@@ -15,7 +15,7 @@ FTP_HOST=
 FTP_USER=
 FTP_TARGET_DIR=
 
-SSH_HOST=i2p.rocks
+SSH_HOST=blog
 SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www/html/blog/
